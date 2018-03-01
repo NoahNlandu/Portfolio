@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>9am Class Demo | Menus</title>
+<link href="menu-9am-01.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="grid-container clearfix">
+	<nav class="main-nav" role="navigation">
+		<h3>MENU</h3>
+		<ul>
+			<li>MENU ITEM 01</li>
+			<li>MENU ITEM 02</li>
+			<li>MENU ITEM 03</li>
+			<li>MENU ITEM 04</li>
+			<li>MENU ITEM 05</li>
+			<li>MENU ITEM 06</li>
+			<li>MENU ITEM 07</li>
+			<li>MENU ITEM 08</li>
+			<li>MENU ITEM 09</li>
+			<li>MENU ITEM 10</li>
+		</ul>
+	</nav>
+	<header class="banner" role="banner">
+		<img src="images/mood2.jpg" alt="">
+		<h1>VINTAGE TORQUE</h1>
+		<p>This is where we will place our introduction, which is best to keep to 256 words or less. This is where we will place our introduction, which is best to keep to 256 words or less.This is where we will place our introduction, which is best to keep to 256 words or less. This is where we will place our introduction, which is best to keep to 256 words or less. This is where we will place our introduction, which is best to keep to 256 words or less.</p>
+	</header>
+	<section class="create-space" role="main"></section>
+</div>
+</body>
+</html>
