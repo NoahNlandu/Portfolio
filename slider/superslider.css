@@ -1,0 +1,140 @@
+/*
+ * jQuery superslider v2.0
+ * http://www.woothemes.com/superslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ */
+
+ 
+/* Browser Resets */
+.super-container a:active,
+.superslider a:active,
+.super-container a:focus,
+.superslider a:focus  {outline: none;}
+.slides,
+.super-control-nav,
+.super-direction-nav {margin: 0; padding: 0; list-style: none;} 
+
+/* superslider Necessary Styles
+*********************************/ 
+.superslider {
+	margin: 0; 
+	padding: 0;
+	position:relative;
+	width:100%;
+	height:130px;
+	opacity:0.8;
+	text-align:center;
+	overflow:hidden;
+	z-index:9999;
+	transition: all 0.8s ease-in-out;
+	}
+.superslider .slides > li {
+	font-family:"Rambla",sans-serif;
+	font-size:36px;
+	display: none;
+	-webkit-backface-visibility: hidden;
+	} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.slides li a:link, .slides li a:visited {
+		font-family:"Rambla",sans-serif;
+		font-size:36px;
+		text-decoration:none;
+	    color:lightblue;
+	}
+.slides li a:hover, .slides li a:active {
+		font-family:"Rambla",sans-serif;
+		font-size:36px;
+		text-decoration:none;
+	    color:lightblue;
+	}
+.superslider .slides img {
+	margin: 0px 0px 0px 0px; 
+	padding: 0;
+	width:414px; 
+	display: block;
+	}
+.super-pauseplay span {text-transform: capitalize;}
+
+/* Clearfix for the .slides element */
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+html[xmlns] .slides {display: block;} 
+* html .slides {height: 1%;}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {display: block;}
+
+
+
+
+
+
+
+
+
+
+
+/* superslider Default Theme
+*********************************/
+
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+/* :::::::::::::: CHANGES I MADE TO MODIFY SLIDER ::::::::::: */
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+/*bottom margin was 60px originally. This pushes down on the element following. I'm setting to 0px. This allows the navigation to butt to the slider. Below the pagination super control nav is set to be invisible*/
+
+/* NOTE: There is a border and border radius on the default theme for the slider. You will need to make adjustments to fit your needs. */
+
+
+.superslider {margin:0 0 0 0;  border: 0px; position: relative; -webkit-border-radius: 0px; -moz-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; box-shadow: 0 1px 4px rgba(0,0,0,.2); -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); -o-box-shadow: 0 1px 4px rgba(0,0,0,.2);}
+.super-viewport {max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease;}
+.loading .super-viewport {max-height: 300px;}
+.superslider .slides {zoom: 1;}
+
+.carousel li {margin-right: 5px}
+
+
+/* Direction Nav */
+.super-direction-nav {*height: 0;}
+.super-direction-nav a {width: 30px; height: 30px; margin: -20px 0 0; display: block; background: url(images/bg_direction_nav.png) no-repeat 0 0; position: absolute; top: 50%; z-index: 10; cursor: pointer; text-indent: -9999px; opacity: 0; -webkit-transition: all .3s ease;}
+.super-direction-nav .super-next {background-position: 100% 0; right: -36px; }
+.super-direction-nav .super-prev {left: -36px;}
+.superslider:hover .super-next {opacity: 0.8; right: 5px;}
+.superslider:hover .super-prev {opacity: 0.8; left: 5px;}
+.superslider:hover .super-next:hover, .superslider:hover .super-prev:hover {opacity: 1;}
+.super-direction-nav .super-disabled {opacity: .3!important; filter:alpha(opacity=30); cursor: default;}
+
+
+
+
+
+
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+/* :::::::::::::: CHANGES I MADE TO MODIFY SLIDER ::::::::::: */
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+/* Control Nav */
+
+/*    I used visibility to hide the pagination on .super-control-nav (first line below)    */
+
+.super-control-nav {visibility:hidden;width: 100%; position: absolute; bottom: -40px; text-align: center;}
+.super-control-nav li {margin: 0 6px; display: inline-block; zoom: 1; *display: inline;}
+.super-control-paging li a {width: 11px; height: 11px; display: block; background: #666; background: rgba(0,0,0,0.5); cursor: pointer; text-indent: -9999px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; box-shadow: inset 0 0 3px rgba(0,0,0,0.3);}
+.super-control-paging li a:hover { background: #333; background: rgba(0,0,0,0.7); }
+.super-control-paging li a.super-active { background: #000; background: rgba(0,0,0,0.9); cursor: default; }
+
+.super-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden;}
+.super-control-thumbs li {width: 25%; float: left; margin: 0;}
+.super-control-thumbs img {width: 100%; display: block; opacity: .7; cursor: pointer;}
+.super-control-thumbs img:hover {opacity: 1;}
+.super-control-thumbs .super-active {opacity: 1; cursor: default;}
+
+@media screen and (max-width: 860px) {
+  .super-direction-nav .super-prev {opacity: 1; left: 0;}
+  .super-direction-nav .super-next {opacity: 1; right: 0;}
+}
