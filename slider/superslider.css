@@ -53,7 +53,9 @@
 .superslider .slides img {
 	margin: 0px 0px 0px 0px; 
 	padding: 0;
-	width:100%; 
+	width:100%;
+	height:auto;
+	height:auto;
 	display: block;
 	}
 .super-pauseplay span {text-transform: capitalize;}
