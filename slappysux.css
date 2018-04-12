@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* MOBILE */
+#ai{
+		width:84%;
+		margin:30px 35px 0px 35px;
+	}
+#smw{
+	width:90%;
+	margin:0px 5px 0px 17px;
+}
+#sdw{
+	width:90%;
+	margin:25px 5px 0px 17px;
+}
+#shfw{
+	align-content:center;
+	width:425px;
+	margin:0px 5px 0px 0px;
+}
+#dsmw{
+		position:fixed;
+	visibility:hidden;
+}	
+#dsdw{
+		position:fixed;
+	visibility:hidden;
+}
+#dshfw{
+		position:fixed;
+	visibility:hidden;
+}	
+#mf{
+	width:521px;
+	margin:-40px 0px 0px -5px;
+	float:left;
+	overflow:hidden;
+}
+#df{
+	width:451px;
+	margin:0px 0px 0px -27px;
+	float:left;
+	overflow:hidden;
+}
+#pm{
+	width:597px;
+	margin:-100px 0px 0px -100px;
+	overflow:hidden;
+}
+#mpm{
+	width:478px;
+	margin:-80px 0px 0px -3px;
+	float:left;
+	overflow:hidden;
+}
+#lp{
+	align-content:center;
+	width:374px;
+	margin:30px 0px 0px 10px;
+	float:left;
+}
+
+/* TABLET */
+@media only screen and (min-width: 430px) {
+
+}
+/* DESKTOP */
+@media only screen and (min-width: 1366px) {
+	#ai{
+		width:68%;
+		margin:30px 0px 40px 200px;
+	}
+	#smw{
+		position:fixed;
+	visibility:hidden;
+}	
+	#sdw{
+		position:fixed;
+	visibility:hidden;
+}
+	#shfw{
+		position:fixed;
+	visibility:hidden;
+}	
+	#dsmw{
+	visibility:hidden;
+}	
+	#dsdw{
+	visibility:hidden;
+}
+	#dsdhfw{
+	visibility:hidden;
+}	
+	#mf{
+	width:1429px;
+	margin:0px 0px 0px -5px;
+	float:left;
+}
+	#df{
+	width:1670px;
+	margin:0px -300px 0px 0px;
+	float:right;
+	overflow:hidden;
+}
+#pm{
+	width:90%;
+	margin:-100px 0px 0px -100px;
+	overflow:hidden;
+}
+#mpm{
+	width:120%;
+	margin:-80px 0px 0px -3px;
+	float:left;
+	overflow:hidden;
+}
+#lp{
+	align-content:center;
+	width:90%;
+	margin:30px 150px 0px 150px;
+}
+}

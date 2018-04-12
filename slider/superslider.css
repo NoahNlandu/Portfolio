@@ -22,12 +22,11 @@
 /* superslider Necessary Styles
 *********************************/ 
 .superslider {
-	margin: 0; 
+	margin:10px 0px 20px 0px; 
 	padding: 0;
 	position:relative;
 	width:100%;
-	height:130px;
-	opacity:0.8;
+	height:auto;
 	text-align:center;
 	overflow:hidden;
 	z-index:9999;
@@ -35,26 +34,26 @@
 	}
 .superslider .slides > li {
 	font-family:"Rambla",sans-serif;
-	font-size:36px;
+	font-size:22px;
 	display: none;
 	-webkit-backface-visibility: hidden;
 	} /* Hide the slides before the JS is loaded. Avoids image jumping */
 .slides li a:link, .slides li a:visited {
 		font-family:"Rambla",sans-serif;
-		font-size:36px;
+		font-size:22px;
 		text-decoration:none;
 	    color:lightblue;
 	}
 .slides li a:hover, .slides li a:active {
 		font-family:"Rambla",sans-serif;
-		font-size:36px;
+		font-size:22px;
 		text-decoration:none;
 	    color:lightblue;
 	}
 .superslider .slides img {
 	margin: 0px 0px 0px 0px; 
 	padding: 0;
-	width:414px; 
+	width:100%; 
 	display: block;
 	}
 .super-pauseplay span {text-transform: capitalize;}
@@ -92,8 +91,8 @@ html[xmlns] .slides {display: block;}
 
 
 .superslider {margin:0 0 0 0;  border: 0px; position: relative; -webkit-border-radius: 0px; -moz-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; box-shadow: 0 1px 4px rgba(0,0,0,.2); -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); -o-box-shadow: 0 1px 4px rgba(0,0,0,.2);}
-.super-viewport {max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease;}
-.loading .super-viewport {max-height: 300px;}
+.super-viewport {max-height: auto; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease;}
+.loading .super-viewport {max-height: auto;}
 .superslider .slides {zoom: 1;}
 
 .carousel li {margin-right: 5px}

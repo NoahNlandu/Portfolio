@@ -1,0 +1,626 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* MOBILE */
+	body{
+	  margin:0;
+	  width:100%;
+	  height:auto;
+	}
+	header{ 
+	  position:relative;
+	  width:100%;
+	  margin:0;
+	  padding:0;
+	  clear:none;
+	  text-align:center;
+	  overflow:hidden;
+  }
+#Header{
+	position:relative;
+	width:200%;
+	height:auto;
+	margin:0 0 0 -25px;
+	border:0px;
+	z-index:9999;
+}
+#Logo{
+	position:absolute;
+	width:55px;
+	height:30px;
+	margin:-35px 0px 0px -42%;
+	border:0px;
+	z-index:9999;
+	
+}
+#nav-box{
+	position:absolute;
+	width:375px;
+	height:30px;
+	margin:-40px auto 0px 130px;
+	border:0px;
+	z-index:9999;
+	
+}
+.main-nav{
+		position:absolute;
+		width:375px;
+		height:auto;
+		margin:0px 10px 20px 5px;
+		clear:both;
+	}
+	.main-nav ul {
+		margin:0px;
+		padding:2px 0 0 0;
+		list-style-type:none;
+	}
+.main-nav ul li{
+	width:55px;
+	margin:0px;
+	float:left;
+	
+}
+	.main-nav ul li a:link, .main-nav ul li a:visited {
+		font-family:"Rambla", sans-serif;
+		font-size:10px;
+		color:white;
+		height:40px;
+		line-height:40px;
+		margin:0;
+		padding:0;
+		text-decoration:none;
+		text-align:center;
+	}
+	.main-nav ul li a:hover, .main-nav ul li a:active {
+		font-family:"Rambla", sans-serif;
+		font-size:10px;
+		color:white;
+		height:40px;
+		line-height:40px;
+		margin:0;
+		padding:0;
+		text-decoration:none;
+}
+#grid-container{
+		position:relative;
+		width:100%;
+		height:auto;
+		margin:0 auto 0 auto;
+		padding:60px 0px;
+		text-align:center;
+		overflow:hidden;
+	}
+h1{
+		position:relative;
+	    font-family:"Rambla", sans-serif,bold,italic;
+		font-size:22px;
+		width:auto;
+		color:black;
+	    margin:40px 0px 15px 35px;
+}
+h2{
+		position:relative;
+	    font-family:"Rambla", sans-serif;
+		font-size:18px;
+		color:black;
+	    margin:40px 0px 5px 15px;
+		float:left;
+}
+h3{
+		position:relative;
+	    font-family:"Rambla", sans-serif;
+		font-size:18px;
+		color:black;
+	    margin:40px 0px 8px 15px;
+		float:left;
+}
+h4{
+		position:relative;
+	    font-family:"Rambla", sans-serif,bold,italic;
+		font-size:18px;
+		color:black;
+	    margin:40px 0px 15px 35px;
+}
+p{ 		position:relative;
+	    font-family:"Rambla", sans-serif;
+		font-size:16px;
+		line-height:22px;
+		width:180px;
+		color:black;
+	    margin:-45px 0px 15px 140px;
+		float:left;
+}
+p2{ 		
+	visibility:hidden;
+}
+.divider{
+	width:100%;
+	margin:0px 0px 25px 0px;
+}
+.divider2{
+	width:100%;
+	margin:0px 0px 25px 0px;
+}
+#sp{
+		height:98px;
+		margin:40px 0px 5px 35px;
+		float:left;
+}
+.srb{
+		margin:0px 0px 0px 5px;
+		float:left;
+}
+.ii{
+		margin:-47px 0px 0px 5px;
+		float:left
+}
+.rm{
+		position:relative;
+	    font-family:"Rambla", sans-serif;
+		font-size:16px;
+		color:black;
+	    margin:-60px 0px 15px 270px;
+		float:left;
+}
+/* #instructions-text{
+		position:absolute;
+		width:150px;
+		height:auto;
+		margin:0px 0px 0px 260px;
+		padding:0px;	
+		border:0px;
+	  	border-radius:20px 0px 0px 20px;
+		opacity:0.7;
+	  	z-index:0;
+	  	background-color:lightyellow;
+}
+#instructions-text h3{
+	font-family: "Rambla",sans serif;
+	font-size: 18px;
+	margin:5px 0px 0px -20px;
+	color:black;
+	opacity:none;
+	text-align:center;
+}
+.instructions{
+	  position:relative;
+	  width:100px;
+	  margin:0px 0px 160px 0px;
+	  padding:0px 0px 0px 10px;
+	  opacity:none;
+	  z-index:1;
+}
+.instructions p{
+	font-family: "Rambla",sans serif;
+	font-size: 11px;
+	color:black;
+	opacity:none;
+	text-align:left;
+}
+#instructions-end{
+	  position:relative;
+	  width:100px;
+	  margin:0px 0px 47px 0px;
+	  padding:0px 0px 0px 15px;
+	 opacity:none;
+	  z-index:1;
+}
+#instructions-end p{
+	font-family: "Rambla",sans serif;
+	font-size: 11px;
+	color:black;
+	opacity:none;
+	text-align:left;
+}
+#gbaf-img{
+	 position:relative;
+	  width:200px;
+	  margin:20px 500px 80px 25px;
+	  padding:0;	
+	  z-index:1;
+}
+#gbaf-box{
+	 position:relative;
+	  width:250px;
+	  height:150px;
+	  margin:-220px 100px 0px 0px;
+	  padding:0;
+	  border:0px;
+	  border-radius:20px;
+	  opacity:0.7;
+	  z-index:0;
+	  background-color:lightgreen;
+}
+#iPhone-components{
+	position:relative;
+	width:93px;
+	right:63px;
+	top:209px;
+	z-index:999;
+}
+#iPhone-button1{
+	font-family: "Rambla",sans serif;
+	font-size: 14px;
+	position:relative;
+	right:45px;
+	top:235px;
+	border:0px;
+	border-radius:5px;
+	background-color:lightyellow;
+}
+#iPhone-button2{
+	font-family: "Rambla",sans serif;
+	font-size: 14px;
+	position:relative;
+	right:195px;
+	top:270px;
+	border:0px;
+	border-radius:5px;
+	background-color:lightyellow;
+}
+#bc-img{
+	 position:relative;
+	  width:200px;
+	  margin:70px 500px 50px 25px;
+	  padding:0;	
+	  z-index:1;
+}
+#bc-box{
+	 position:relative;
+	  width:250px;
+	  height:150px;
+	  margin:-190px 100px 0px 0px;
+	  padding:0;
+	  border:0px;
+	  border-radius:20px;
+	  opacity:0.7;
+	  z-index:0;
+	  background-color:lightgreen;
+}
+#rpi{
+	position:relative;
+	width:100px;
+	right:70px;
+	top:172px;
+	z-index:999;
+}
+#rpi-button{
+	font-family: "Rambla",sans serif;
+	font-size: 14px;
+	position:relative;
+	right:130px;
+	top:243px;
+	border:0px;
+	border-radius:5px;
+	background-color:lightyellow;
+}
+#gbab-img{
+	 position:relative;
+	  width:200px;
+	  margin:80px 500px 20px 25px;
+	  padding:0;	
+	  z-index:1;
+}
+#gbab-box{
+	 position:relative;
+	  width:250px;
+	  height:150px;
+	  margin:-150px 100px 0px 0px;
+	  padding:0;
+	  border:0px;
+	  border-radius:20px;
+	  opacity:0.7;
+	  z-index:0;
+	  background-color:lightgreen;
+}
+#back-case{
+	position:relative;
+	width:225px;
+	right:65px;
+	top:165px;
+	z-index:1;
+}
+#backcase-button{
+	font-family: "Rambla",sans serif;
+	font-size: 14px;
+	position:relative;
+	right:135px;
+	top:167px;
+	border:0px;
+	border-radius:5px;
+	background-color:lightyellow;
+}
+#f-img{
+	 position:relative;
+	  width:200px;
+	  margin:0px 500px 80px 25px;
+	  padding:0;	
+	  z-index:1;
+}
+#f-box{
+	 position:relative;
+	  width:250px;
+	  height:150px;
+	  margin:-210px 100px 0px 0px;
+	  padding:0;
+	  border:0px;
+	  border-radius:20px;
+	  opacity:0.7;
+	  z-index:0;
+	  background-color:lightgreen;
+}
+#screen-buttons{
+	position:relative;
+	width:185px;
+	right:66px;
+	top:209px;
+	z-index:999;
+}
+#screenbuttons-button{
+	font-family: "Rambla",sans serif;
+	font-size: 14px;
+	position:relative;
+	right:120px;
+	top:250px;
+	border:0px;
+	border-radius:5px;
+	background-color:lightyellow;
+}
+#fc-img{
+	 position:relative;
+	  width:200px;
+	  margin:90px 500px 80px 25px;
+	  padding:0;	
+	  z-index:1;
+}
+#fc-box{
+	 position:relative;
+	  width:250px;
+	  height:150px;
+	  margin:-220px 100px 0px 0px;
+	  padding:0;
+	  border:0px;
+	  border-radius:20px;
+	  opacity:0.7;
+	  z-index:0;
+	  background-color:lightgreen;
+}
+#fi-img{
+	 position:relative;
+	  width:200px;
+	  margin:160px 500px 80px 25px;
+	  padding:0;	
+	  z-index:1;
+}
+#fi-box{
+	 position:relative;
+	  width:250px;
+	  height:150px;
+	  margin:-220px 100px 0px 0px;
+	  padding:0;
+	  border:0px;
+	  border-radius:20px;
+	  opacity:0.7;
+	  z-index:0;
+	  background-color:lightgreen;
+}*/
+footer{
+	width:100%;
+	height:150px;
+	padding:5px;
+	background-color:#4D4360;
+}
+footer h3{
+	font-family:"Rambla",sans serif;
+	font-size:18px;
+	color:lightblue;
+	margin:0px 0px 5px 10px;
+}
+.cta-icon-box{
+	height:auto;
+	float:left;
+}
+.cta-icon{
+	position:realative;
+	width:50px;
+	margin:5px;
+	float:left;
+}
+#footnotes{
+	position:realative;
+	width:360px;
+	height:auto;
+	margin:0px 0px 0px 5px;
+	float:left;
+}
+footer p{
+	font-family:"Rambla",sans serif;
+	font-size:9px;
+	color:lightblue;
+	margin:0px 0px 0px 5px;
+}
+footer a:link, footer a:visited {
+		font-family:"Rambla", sans-serif;
+		font-size:12px;
+		color:white;
+		margin:0px 0px 0px 5px;
+		padding:0;
+		text-decoration:none;
+		text-align:center;
+	}
+	footer a:hover, footer a:active {
+		font-family:"Rambla", sans-serif;
+		font-size:12px;
+		color:green;
+		margin:0px 0px 0px 5px;
+		padding:0;
+		text-decoration:none;
+}
+/* TABLET */
+@media only screen and (min-width: 430px) {
+body{
+	  margin:0;
+	  width:1366px;
+	  height:auto;
+	}
+}
+	/* DESKTOP */
+@media only screen and (min-width: 1366px) {
+	body{
+	  margin:0;
+	  width:100%;
+	  height:auto;
+	}
+	header{ 
+	  position:relative;
+	  width:100%;
+	  margin:0;
+	  padding:0;
+	  clear:none;
+	  text-align:center;
+  }
+#Header{
+	position:relative;
+	width:100%;
+	height:auto;
+	margin:0 0 0 0px;
+	border:0px;
+	z-index:9999;
+}
+#Logo{
+	position:absolute;
+	width:110px;
+	height:auto;
+	margin:-74px 0px 0px -42.5%;
+	border:0px;
+	z-index:9999;
+	
+}
+#nav-box{
+	position:relative;
+	width:100%;
+	height:70px;
+	margin:-60px auto 0px 340px;
+	border:0px;
+	z-index:9999;
+	
+}
+.main-nav{
+		position:relative;
+		width:auto;
+		height:auto;
+		margin:0px 10px 20px 5px;
+		clear:both;
+	}
+	.main-nav ul {
+		margin:0px;
+		padding:2px 0 0 0;
+		list-style-type:none;
+	}
+.main-nav ul li{
+	width:250px;
+	margin:0px;
+	float:left;
+	
+}
+	.main-nav ul li a:link, .main-nav ul li a:visited {
+		font-family:"Rambla", sans-serif;
+		font-size:22px;
+		color:white;
+		height:40px;
+		line-height:40px;
+		margin:0;
+		padding:0;
+		text-decoration:none;
+		text-align:center;
+	}
+	.main-nav ul li a:hover, .main-nav ul li a:active {
+		font-family:"Rambla", sans-serif;
+		font-size:22px;
+		color:white;
+		height:40px;
+		line-height:40px;
+		margin:0;
+		padding:0;
+		text-decoration:none;
+}
+	h1{
+		position:relative;
+	    font-family:"Rambla", sans-serif;
+		font-size:50px;
+		color:black;
+	    margin:75px 0px 25px 200px;
+}
+	
+    h2{
+	    position:relative;
+	    font-family:"Rambla", sans-serif;
+		font-style:bold,italic;
+		font-size:40px;
+		color:black;
+	    margin:80px 0px 25px 50px;
+		float:left;
+}
+	h3{
+		position:relative;
+	    font-family:"Rambla", sans-serif;
+		font-style:bold,italic;
+		font-size:40px;
+		color:black;
+	    margin:80px 0px 25px 50px;
+		float:left;		
+}
+	h4{
+		position:relative;
+	    font-family:"Rambla", sans-serif;
+		font-style:bold,italic;
+		font-size:32px;
+		color:black;
+	    margin:200px 0px 25px 200px;
+		float:left;		
+}
+	p{ 		
+		visibility:hidden;
+}
+	p2{ 		
+		position:relative;
+	    font-family:"Rambla", sans-serif;
+		font-size:18px;
+		line-height:30px;
+		width:440px;
+		color:black;
+	    margin:200px 0px 15px -835px;
+		float:left;
+		visibility:visible;
+}
+		
+    .divider{
+		width:100%;
+		margin:0px 0px 75px 0px;
+}
+   .divider2{
+		width:100%;
+		margin:0px 0px 75px 0px;
+}
+#sp{
+		height:220px;
+		margin:80px 40px 5px 200px;
+		float:left;
+}
+.srb{
+		margin:0px 100px 0px 0px;
+		float:left;
+}
+.ii{
+		margin:50px 0px 0px -565px;
+		float:left
+	}
+.rm{
+		position:relative;
+	    font-family:"Rambla", sans-serif;
+		font-size:18px;
+		color:black;
+	    margin:265px 0px 15px -595px;
+		float:left;
+}
+}
