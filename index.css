@@ -3,9 +3,10 @@
 
 /* MOBILE */
 	body{
-	  margin:0;
-	  width:100%;
-	  height:auto;
+		margin:0;
+		width:100%;
+		height:auto;
+		overflow-x:hidden;
 	}
 	header{ 
 	  position:relative;
@@ -30,14 +31,13 @@
 	height:30px;
 	margin:-35px 0px 0px -42%;
 	border:0px;
-	z-index:9999;
-	
+	z-index:9999;	
 }
 #nav-box{
 	position:absolute;
 	width:375px;
 	height:30px;
-	margin:-40px auto 0px 130px;
+	margin:-42px auto 0px 33%;
 	border:0px;
 	z-index:9999;
 	
@@ -81,7 +81,7 @@
 		padding:0;
 		text-decoration:none;
 }
-#grid-container{
+/*#grid-container{
 		position:relative;
 		width:100%;
 		height:auto;
@@ -89,7 +89,7 @@
 		padding:60px 0px;
 		text-align:center;
 		overflow:hidden;
-	}
+	}*/
 h1{
 		position:relative;
 	    font-family:"Rambla", sans-serif,bold,italic;
@@ -121,16 +121,26 @@ h4{
 		color:black;
 	    margin:40px 0px 15px 35px;
 }
+#contactm{
+	visibility:visible;
+}
+#contactd{
+	
+	position:fixed;
+	visibility:hidden;
+	float:right;
+}
 p{ 		position:relative;
 	    font-family:"Rambla", sans-serif;
 		font-size:16px;
 		line-height:22px;
-		width:180px;
+		width:195px;
 		color:black;
-	    margin:-45px 0px 15px 140px;
+	    margin:5px 0px 15px 20px;
 		float:left;
 }
-p2{ 		
+p2{ 
+	position:fixed;
 	visibility:hidden;
 }
 .divider{
@@ -141,7 +151,7 @@ p2{
 	width:100%;
 	margin:0px 0px 25px 0px;
 }
-#sp{
+.sp{
 		height:98px;
 		margin:40px 0px 5px 35px;
 		float:left;
@@ -153,14 +163,6 @@ p2{
 .ii{
 		margin:-47px 0px 0px 5px;
 		float:left
-}
-.rm{
-		position:relative;
-	    font-family:"Rambla", sans-serif;
-		font-size:16px;
-		color:black;
-	    margin:-60px 0px 15px 270px;
-		float:left;
 }
 /* #instructions-text{
 		position:absolute;
@@ -457,19 +459,12 @@ footer a:link, footer a:visited {
 		text-decoration:none;
 }
 /* TABLET */
-@media only screen and (min-width: 430px) {
+@media only screen and (min-width: 480px) {
 body{
-	  margin:0;
-	  width:1366px;
-	  height:auto;
-	}
-}
-	/* DESKTOP */
-@media only screen and (min-width: 1366px) {
-	body{
-	  margin:0;
-	  width:100%;
-	  height:auto;
+		margin:0;
+		width:100%;
+		height:auto;
+		overflow-x:hidden;
 	}
 	header{ 
 	  position:relative;
@@ -489,9 +484,91 @@ body{
 }
 #Logo{
 	position:absolute;
-	width:110px;
+	width:95px;
+	height:60px;
+	margin:-65px 0px 0px -42%;
+	border:0px;
+	z-index:9999;
+	
+}
+#nav-box{
+	position:relative;
+	width:100%;
+	height:70px;
+	margin:-60px auto 0px 340px;
+	border:0px;
+	z-index:9999;
+	
+}
+.main-nav{
+		position:relative;
+		width:auto;
+		height:auto;
+		margin:0px 10px 20px 5px;
+		clear:both;
+	}
+	.main-nav ul {
+		margin:0px;
+		padding:2px 0 0 0;
+		list-style-type:none;
+	}
+.main-nav ul li{
+	width:250px;
+	margin:0px;
+	float:left;
+	
+}
+	.main-nav ul li a:link, .main-nav ul li a:visited {
+		font-family:"Rambla", sans-serif;
+		font-size:22px;
+		color:white;
+		height:40px;
+		line-height:40px;
+		margin:0;
+		padding:0;
+		text-decoration:none;
+		text-align:center;
+	}
+	.main-nav ul li a:hover, .main-nav ul li a:active {
+		font-family:"Rambla", sans-serif;
+		font-size:22px;
+		color:white;
+		height:40px;
+		line-height:40px;
+		margin:0;
+		padding:0;
+		text-decoration:none;
+}
+}
+	/* DESKTOP */
+@media only screen and (min-width: 1500px) {
+	body{
+		margin:0;
+		width:100%;
+		height:auto;
+		overflow-x:hidden;
+	}
+	header{ 
+	  position:relative;
+	  width:100%;
+	  margin:0;
+	  padding:0;
+	  clear:none;
+	  text-align:center;
+  }
+#Header{
+	position:relative;
+	width:100%;
 	height:auto;
-	margin:-74px 0px 0px -42.5%;
+	margin:0 0 0 0px;
+	border:0px;
+	z-index:9999;
+}
+#Logo{
+	position:absolute;
+	width:95px;
+	height:60px;
+	margin:-65px 0px 0px -42%;
 	border:0px;
 	z-index:9999;
 	
@@ -545,7 +622,7 @@ body{
 		text-decoration:none;
 }
 	h1{
-		position:relative;
+		position: relative;
 	    font-family:"Rambla", sans-serif;
 		font-size:50px;
 		color:black;
@@ -556,18 +633,22 @@ body{
 	    position:relative;
 	    font-family:"Rambla", sans-serif;
 		font-style:bold,italic;
-		font-size:40px;
+		font-size:32px;
+		width:inherit;
 		color:black;
-	    margin:80px 0px 25px 50px;
+	    margin:80px 0px 15px 20px;
+		visibility:visible;
 		float:left;
 }
 	h3{
 		position:relative;
 	    font-family:"Rambla", sans-serif;
 		font-style:bold,italic;
-		font-size:40px;
+		font-size:32px;
+		width:inherit;
 		color:black;
-	    margin:80px 0px 25px 50px;
+	    margin:80px 0px 15px 15px;
+		visibility:visible;
 		float:left;		
 }
 	h4{
@@ -579,21 +660,30 @@ body{
 	    margin:200px 0px 25px 200px;
 		float:left;		
 }
+	#contactm{
+		position:fixed;	visibility: hidden;
+}
+	#contactd{
+	
+		position: relative;
+		width:45%;
+		height: inherit;
+		visibility: visible;
+}
 	p{ 		
-		visibility:hidden;
+		position:fixed;	visibility: hidden;
 }
 	p2{ 		
-		position:relative;
+		position: relative;
 	    font-family:"Rambla", sans-serif;
 		font-size:18px;
 		line-height:30px;
-		width:440px;
+		width:25%;
 		color:black;
-	    margin:200px 0px 15px -835px;
+	    margin:200px 0px 15px -408px;
 		float:left;
-		visibility:visible;
-}
-		
+		visibility: visible;
+}	
     .divider{
 		width:100%;
 		margin:0px 0px 75px 0px;
@@ -602,25 +692,29 @@ body{
 		width:100%;
 		margin:0px 0px 75px 0px;
 }
-#sp{
-		height:220px;
+	.sp{
+		position: relative;
+		width:10%;
+		height:auto;
 		margin:80px 40px 5px 200px;
+		visibility: visible;
 		float:left;
 }
-.srb{
+	.srb{
 		margin:0px 100px 0px 0px;
+		width:inherit;
+		height:100px;
 		float:left;
 }
-.ii{
-		margin:50px 0px 0px -565px;
+	.ii{
+		margin:50px 0px 0px -425px;
+		width:inherit;
+		height:100px;
 		float:left
 	}
-.rm{
-		position:relative;
-	    font-family:"Rambla", sans-serif;
-		font-size:18px;
-		color:black;
-	    margin:265px 0px 15px -595px;
-		float:left;
-}
+	#flat{
+		position: relative;
+		height: auto;
+		margin:500px 0 0 0;
+	}
 }

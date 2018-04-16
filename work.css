@@ -36,11 +36,11 @@ p2work{
 		font-size:16px;
 		line-height:22px;
 		color:black;
-	    margin:0px 35px 0px 35px;
+	    margin:0px 35px 10px 35px;
 		float:left;
 }
 hwork{
-	position:relative;
+		position: relative;
 	    font-family:"Rambla", sans-serif;
 		font-size:18px;
 		line-height:22px;
@@ -49,19 +49,19 @@ hwork{
 		float:left;
 }
 /* TABLET */
-@media only screen and (min-width: 430px) {
+@media only screen and (min-width: 48110px) {
 .hi{
 		width:100%;
 	}
 }
 /* DESKTOP */
-@media only screen and (min-width: 1366px) {
-.hi{
+@media only screen and (min-width: 1500px) {
+	.hi{
 		width:100%;
 		margin:0 0 100px 0;
 	}	
-pwork{
-	position:relative;
+	pwork{
+		position: relative;
 	    font-family:"Rambla", sans-serif;
 		font-size:32px;
 		line-height:47px;
@@ -69,15 +69,22 @@ pwork{
 	    margin:0px 200px 75px 200px;
 		float:left;
 }
-.lc{
-		width:35%;
-		margin:0 0 40px 200px;
+	.bc{
+		position: relative;
+		width:100%;
+		min-height:1px;
+		margin: 14px 0 20px 0;
 		float:left;
 }
-.rc{
+	.lc{
+		width:35%;
+		margin:0 0 auto 200px;
+		float:left;
+}
+	.rc{
 		position: inherit;
 		width:35%;
-		margin:0 200px 40px 0px;
+		margin:0 200px auto 0px;
 		float:right;
 	}
 h2work{
@@ -100,12 +107,12 @@ p2work{
 		float:left;
 }
 hwork{
-	position:relative;
+		position: relative;
 	    font-family:"Rambla", sans-serif;
-		font-size:18px;
-		line-height:22px;
+		font-size:32px;
+		line-height:32px;
 		color:black;
-	    margin:60px 35px 15px 35px;
+	    margin:60px 35px 15px 200px;
 		float:left;
 }
 }

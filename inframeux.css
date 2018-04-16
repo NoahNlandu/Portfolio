@@ -1,3 +1,159 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* MOBILE */
+#ai{
+		position: relative;
+		width:84%;
+		margin:30px 35px 0px 35px;
+		visibility: visible;
+	}
+#ai1{
+		position: fixed;
+		visibility: hidden;
+	}
+	#ai2{
+		position: fixed;
+		visibility: hidden;
+	}
+#smw{
+	width:90%;
+	margin:0px 5px 0px 17px;
+}
+#sdw{
+	width:90%;
+	margin:25px 5px 0px 17px;
+}
+#shfw{
+	align-content:center;
+	width:425px;
+	margin:0px 5px 0px 0px;
+}
+#dsmw{
+		position: fixed;
+		visibility: hidden;
+}	
+#dsdw{
+		position:fixed;
+	visibility:hidden;
+}
+#dshfw{
+		position:fixed;
+	visibility:hidden;
+}	
+#mf{
+	width:521px;
+	margin:-40px 0px 0px -5px;
+	float:left;
+	overflow:hidden;
+}
+#df{
+	width:451px;
+	margin:0px 0px 0px -27px;
+	float:left;
+	overflow:hidden;
+}
+#pm{
+	width:597px;
+	margin:-100px 0px 0px -100px;
+	overflow:hidden;
+}
+#mpm{
+	width:478px;
+	margin:-80px 0px 0px -3px;
+	float:left;
+	overflow:hidden;
+}
+#lp{
+	align-content:center;
+	width:374px;
+	margin:30px 0px 0px 10px;
+	float:left;
+}
+
+/* TABLET */
+@media only screen and (min-width: 480px) {
+
+}
+/* DESKTOP */
+@media only screen and (min-width: 1500px) {
+	#ai{
+		position: fixed;
+		visibility: hidden;
+	}
+	#ai1{
+		position: relative;
+		width:90%;
+		margin:0px 0px 0px 0px;
+		visibility: visible;
+	}
+	#ai2{
+		position: relative;
+		width:90%;
+		margin:0px 0px 0px 0px;
+		visibility: visible;
+	}
+	#smw{
+		position: fixed;
+		visibility: hidden;
+}	
+	#sdw{
+		position: fixed;
+		visibility: hidden;
+}
+	#shfw{
+		position: fixed;
+		visibility: hidden;
+}	
+	#dsmw{
+		position: relative;
+		width:73%;
+		margin:30px 0px 40px 160px;
+		visibility: visible;
+}	
+	#dsdw{
+		position: relative;
+		width:78%;
+		margin:30px 0px 40px 140px;
+		visibility: visible;
+}
+	#dshfw{
+		position: relative;
+		width:78%;
+		margin:30px 0px 40px 190px;
+		visibility: visible;
+}	
+	#mf{
+	width:1400px;
+	margin:-470px 0px 50px -130px;
+	float:left;
+}
+	#df{
+	width:1500px;
+	margin:-400px -450px 0px 0px;
+	float:right;
+	overflow:hidden;
+}
+	#sflat{
+		position: absolute;
+		width:100%;
+		height: inherit;
+		margin:1700px 0 0 0;
+	}
+	#pm{
+	width:90%;
+	margin:-100px 0px 0px -100px;
+	overflow:hidden;
+}
+	#mpm{
+	width:120%;
+	margin:-210px 0px 0px -3px;
+	float:left;
+	overflow:hidden;
+}
+	#lp{
+	align-content:center;
+	width:90%;
+	margin:30px 150px 0px 150px;
+}
+}
