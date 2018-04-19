@@ -2,6 +2,12 @@
 /* CSS Document */
 
 /* MOBILE */
+body{
+		margin:0;
+		width:100%;
+		height:auto;
+		overflow-x:hidden;
+	}
 #ux{
 		position:relative;
 	    margin:-80px 40px 0px 53%;
@@ -18,11 +24,40 @@
 		float:right;
 }
 /* TABLET */
-@media only screen and (min-width: 430px) {
+@media only screen and (min-width: 480px) {
+	body{
+		margin:0;
+		width:100%;
+		height:auto;
+		overflow-x:hidden;
+	}
+	#ux{
+		position:relative;
+	    margin:-160px 40px 0px 50vw;
+		float:left;
+}
+.icon{
+		width:25%;
+		height:auto;
+		margin:40px 100px 5px 15%;
+		float:left;
+}
+.icon2{
+		width:25%;
+		height:auto;
+		margin:-24% 15% 5px 50%;
+		float:right;
+}
 	
 }
 	/* DESKTOP */
-@media only screen and (min-width: 1366px) {
+@media only screen and (min-width: 1500px) {
+	body{
+		margin:0;
+		width:100%;
+		height:auto;
+		overflow-x:hidden;
+	}
 	#ux{
 		position:relative;
 	    margin:-160px 200px 0px 50%;

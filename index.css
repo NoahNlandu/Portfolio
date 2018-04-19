@@ -121,10 +121,14 @@ h4{
 		color:black;
 	    margin:40px 0px 15px 35px;
 }
+#sd{
+		width:auto;
+		padding:0; 
+	}
 #contactm{
 	visibility:visible;
 }
-#contactd{
+.contactd{
 	
 	position:fixed;
 	visibility:hidden;
@@ -164,248 +168,7 @@ p2{
 		margin:-47px 0px 0px 5px;
 		float:left
 }
-/* #instructions-text{
-		position:absolute;
-		width:150px;
-		height:auto;
-		margin:0px 0px 0px 260px;
-		padding:0px;	
-		border:0px;
-	  	border-radius:20px 0px 0px 20px;
-		opacity:0.7;
-	  	z-index:0;
-	  	background-color:lightyellow;
-}
-#instructions-text h3{
-	font-family: "Rambla",sans serif;
-	font-size: 18px;
-	margin:5px 0px 0px -20px;
-	color:black;
-	opacity:none;
-	text-align:center;
-}
-.instructions{
-	  position:relative;
-	  width:100px;
-	  margin:0px 0px 160px 0px;
-	  padding:0px 0px 0px 10px;
-	  opacity:none;
-	  z-index:1;
-}
-.instructions p{
-	font-family: "Rambla",sans serif;
-	font-size: 11px;
-	color:black;
-	opacity:none;
-	text-align:left;
-}
-#instructions-end{
-	  position:relative;
-	  width:100px;
-	  margin:0px 0px 47px 0px;
-	  padding:0px 0px 0px 15px;
-	 opacity:none;
-	  z-index:1;
-}
-#instructions-end p{
-	font-family: "Rambla",sans serif;
-	font-size: 11px;
-	color:black;
-	opacity:none;
-	text-align:left;
-}
-#gbaf-img{
-	 position:relative;
-	  width:200px;
-	  margin:20px 500px 80px 25px;
-	  padding:0;	
-	  z-index:1;
-}
-#gbaf-box{
-	 position:relative;
-	  width:250px;
-	  height:150px;
-	  margin:-220px 100px 0px 0px;
-	  padding:0;
-	  border:0px;
-	  border-radius:20px;
-	  opacity:0.7;
-	  z-index:0;
-	  background-color:lightgreen;
-}
-#iPhone-components{
-	position:relative;
-	width:93px;
-	right:63px;
-	top:209px;
-	z-index:999;
-}
-#iPhone-button1{
-	font-family: "Rambla",sans serif;
-	font-size: 14px;
-	position:relative;
-	right:45px;
-	top:235px;
-	border:0px;
-	border-radius:5px;
-	background-color:lightyellow;
-}
-#iPhone-button2{
-	font-family: "Rambla",sans serif;
-	font-size: 14px;
-	position:relative;
-	right:195px;
-	top:270px;
-	border:0px;
-	border-radius:5px;
-	background-color:lightyellow;
-}
-#bc-img{
-	 position:relative;
-	  width:200px;
-	  margin:70px 500px 50px 25px;
-	  padding:0;	
-	  z-index:1;
-}
-#bc-box{
-	 position:relative;
-	  width:250px;
-	  height:150px;
-	  margin:-190px 100px 0px 0px;
-	  padding:0;
-	  border:0px;
-	  border-radius:20px;
-	  opacity:0.7;
-	  z-index:0;
-	  background-color:lightgreen;
-}
-#rpi{
-	position:relative;
-	width:100px;
-	right:70px;
-	top:172px;
-	z-index:999;
-}
-#rpi-button{
-	font-family: "Rambla",sans serif;
-	font-size: 14px;
-	position:relative;
-	right:130px;
-	top:243px;
-	border:0px;
-	border-radius:5px;
-	background-color:lightyellow;
-}
-#gbab-img{
-	 position:relative;
-	  width:200px;
-	  margin:80px 500px 20px 25px;
-	  padding:0;	
-	  z-index:1;
-}
-#gbab-box{
-	 position:relative;
-	  width:250px;
-	  height:150px;
-	  margin:-150px 100px 0px 0px;
-	  padding:0;
-	  border:0px;
-	  border-radius:20px;
-	  opacity:0.7;
-	  z-index:0;
-	  background-color:lightgreen;
-}
-#back-case{
-	position:relative;
-	width:225px;
-	right:65px;
-	top:165px;
-	z-index:1;
-}
-#backcase-button{
-	font-family: "Rambla",sans serif;
-	font-size: 14px;
-	position:relative;
-	right:135px;
-	top:167px;
-	border:0px;
-	border-radius:5px;
-	background-color:lightyellow;
-}
-#f-img{
-	 position:relative;
-	  width:200px;
-	  margin:0px 500px 80px 25px;
-	  padding:0;	
-	  z-index:1;
-}
-#f-box{
-	 position:relative;
-	  width:250px;
-	  height:150px;
-	  margin:-210px 100px 0px 0px;
-	  padding:0;
-	  border:0px;
-	  border-radius:20px;
-	  opacity:0.7;
-	  z-index:0;
-	  background-color:lightgreen;
-}
-#screen-buttons{
-	position:relative;
-	width:185px;
-	right:66px;
-	top:209px;
-	z-index:999;
-}
-#screenbuttons-button{
-	font-family: "Rambla",sans serif;
-	font-size: 14px;
-	position:relative;
-	right:120px;
-	top:250px;
-	border:0px;
-	border-radius:5px;
-	background-color:lightyellow;
-}
-#fc-img{
-	 position:relative;
-	  width:200px;
-	  margin:90px 500px 80px 25px;
-	  padding:0;	
-	  z-index:1;
-}
-#fc-box{
-	 position:relative;
-	  width:250px;
-	  height:150px;
-	  margin:-220px 100px 0px 0px;
-	  padding:0;
-	  border:0px;
-	  border-radius:20px;
-	  opacity:0.7;
-	  z-index:0;
-	  background-color:lightgreen;
-}
-#fi-img{
-	 position:relative;
-	  width:200px;
-	  margin:160px 500px 80px 25px;
-	  padding:0;	
-	  z-index:1;
-}
-#fi-box{
-	 position:relative;
-	  width:250px;
-	  height:150px;
-	  margin:-220px 100px 0px 0px;
-	  padding:0;
-	  border:0px;
-	  border-radius:20px;
-	  opacity:0.7;
-	  z-index:0;
-	  background-color:lightgreen;
-}*/
+
 footer{
 	width:100%;
 	height:150px;
@@ -467,18 +230,18 @@ body{
 		overflow-x:hidden;
 	}
 	header{ 
-	  position:relative;
-	  width:100%;
+	  position: relative;
+	 width:100%;
+		max-height:60px;
 	  margin:0;
 	  padding:0;
-	  clear:none;
-	  text-align:center;
   }
 #Header{
 	position:relative;
-	width:100%;
-	height:auto;
-	margin:0 0 0 0px;
+	max-width:1500px;
+	min-width:auto;
+	max-height:60px;
+	margin:0 0 10px -20px;
 	border:0px;
 	z-index:9999;
 }
@@ -492,10 +255,10 @@ body{
 	
 }
 #nav-box{
-	position:relative;
+	position:absolute;
 	width:100%;
-	height:70px;
-	margin:-60px auto 0px 340px;
+	height:auto;
+	margin:-7vh auto 0 35%;
 	border:0px;
 	z-index:9999;
 	
@@ -513,16 +276,16 @@ body{
 		list-style-type:none;
 	}
 .main-nav ul li{
-	width:250px;
-	margin:0px;
+	width:8%;
+	margin:0px 20px 0 20px;
 	float:left;
 	
 }
 	.main-nav ul li a:link, .main-nav ul li a:visited {
 		font-family:"Rambla", sans-serif;
-		font-size:22px;
+		font-size:16px;
 		color:white;
-		height:40px;
+		height:24px;
 		line-height:40px;
 		margin:0;
 		padding:0;
@@ -531,14 +294,80 @@ body{
 	}
 	.main-nav ul li a:hover, .main-nav ul li a:active {
 		font-family:"Rambla", sans-serif;
-		font-size:22px;
+		font-size:16px;
 		color:white;
-		height:40px;
+		height:24px;
 		line-height:40px;
 		margin:0;
 		padding:0;
 		text-decoration:none;
 }
+	h1{
+		position: relative;
+	    font-family:"Rambla", sans-serif;
+		font-size:50px;
+		color:black;
+	    margin:75px 0px 25px 150px;
+}
+    h2{
+	    position:relative;
+	    font-family:"Rambla", sans-serif;
+		font-style:bold,italic;
+		font-size:24px;
+		width:inherit;
+		color:black;
+	    margin:40px 0px 10px 20px;
+		visibility: visible;
+		float:left;
+}
+	h3{
+		position:relative;
+	    font-family:"Rambla", sans-serif;
+		font-style:bold,italic;
+		font-size:24px;
+		width:inherit;
+		color:black;
+	    margin:40px 0px 10px 20px;
+		visibility: visible;
+		float:left;		
+}
+	h4{
+		position:relative;
+	    font-family:"Rambla", sans-serif;
+		font-style:bold,italic;
+		font-size:32px;
+		color:black;
+	    margin:200px 0px 25px 200px;
+		float:left;		
+}
+	#sd{
+		width:400px;
+		padding:0; 
+	}
+	#contactm{
+		position:fixed;	visibility: hidden;
+}
+	.contactd{
+	
+		position: relative;
+		width:45%;
+		height: inherit;
+		visibility: visible;
+}
+	p{ 		
+		position:fixed;	visibility: hidden;
+}
+	p2{ 		
+		position: relative;
+	    font-family:"Rambla", sans-serif;
+		font-size:18px;
+		line-height:30px;
+		width:30%;
+		color:black;
+	    margin:40px 0px 15px -220px;
+		float:left;
+		visibility: visible;
+}	
 }
 	/* DESKTOP */
 @media only screen and (min-width: 1500px) {
@@ -548,17 +377,16 @@ body{
 		height:auto;
 		overflow-x:hidden;
 	}
-	header{ 
-	  position:relative;
+header{ 
+	  position: relative;
 	  width:100%;
 	  margin:0;
 	  padding:0;
-	  clear:none;
-	  text-align:center;
   }
 #Header{
 	position:relative;
-	width:100%;
+	min-width:1500px;
+	max-width:100%;
 	height:auto;
 	margin:0 0 0 0px;
 	border:0px;
@@ -637,7 +465,7 @@ body{
 		width:inherit;
 		color:black;
 	    margin:80px 0px 15px 20px;
-		visibility:visible;
+		visibility: visible;
 		float:left;
 }
 	h3{
@@ -648,9 +476,9 @@ body{
 		width:inherit;
 		color:black;
 	    margin:80px 0px 15px 15px;
-		visibility:visible;
+		visibility: visible;
 		float:left;		
-}
+}	
 	h4{
 		position:relative;
 	    font-family:"Rambla", sans-serif;
@@ -660,10 +488,14 @@ body{
 	    margin:200px 0px 25px 200px;
 		float:left;		
 }
+	#sd{
+		width:auto;
+		padding:0; 
+	}
 	#contactm{
 		position:fixed;	visibility: hidden;
 }
-	#contactd{
+	.contactd{
 	
 		position: relative;
 		width:45%;

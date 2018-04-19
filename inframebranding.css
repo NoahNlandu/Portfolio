@@ -1,3 +1,424 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* MOBILE */
+body{
+		margin:0;
+		width:100%;
+		height:auto;
+		overflow-x:hidden;
+	}
+#ai{
+		position: relative;
+		width:84%;
+		margin:30px 35px 0px 35px;
+		visibility: visible;
+	}
+#ai1{
+		position: fixed;
+		visibility: hidden;
+	}
+	#ai2{
+		position: fixed;
+		visibility: hidden;
+	}
+#rtrm{
+		position: relative;
+		width:84%;
+		margin:30px 35px 0px 35px;
+		visibility: visible;
+	}
+	#rtrd{
+		position: fixed;
+		visibility: hidden;
+	}
+#sk{
+		position: fixed;
+		visibility: hidden;
+	}
+.sk{
+		position: relative;
+		width:84%;
+		margin:30px 35px 0px 35px;
+		visibility: visible;
+	}
+#om{
+	position: relative;
+		width:84%;
+		margin:30px 35px 30px 35px;
+		visibility: visible;
+}
+	.rcom{
+		margin:0 0 0px 0px;
+}
+.rcf{
+		margin:0 0 0px 0px;
+	}
+#fm{
+		position: relative;
+		width:84%;
+		margin:0px 35px 0px 35px;
+		visibility: visible;
+	}
+#fm2{
+		position: relative;
+		width:84%;
+		margin:35px 35px 30px 35px;
+		visibility: visible;
+	}
+#fd{
+		position: fixed;
+		visibility: hidden;
+	}
+#c{
+		position: relative;
+		width:84%;
+		margin:35px 35px 30px 35px;
+		visibility: visible;
+}
+.mim{
+		position: relative;
+		width:84%;
+		margin:30px 35px 0px 35px;
+		visibility: visible;
+	}
+.rcp{
+		margin:0 0 0px 0px;
+	}
+#mid{
+		position: fixed;
+		visibility: hidden;
+	}
+#mid2{
+		position: fixed;
+		visibility: hidden;
+	}
+#ifm{
+		position: relative;
+		width:85%;
+		margin:20px 35px 0px 35px;
+		visibility: visible;
+	}
+#ifmb{
+		position: relative;
+		width:120%;
+		margin:50px 0px 0px -30px;
+		visibility: visible;
+	}
+#shmm{
+		position: relative;
+		width:100%;
+		margin:50px 0px 0px 0px;
+		visibility: visible;
+	}
+#shm{
+		position: fixed;
+		visibility: hidden;
+	}
+#b{
+		position: fixed;
+		visibility: hidden;
+}
+#bm{
+	position: relative;
+		width:100%;
+		margin:50px 0px 0px 0px;
+		visibility: visible;
+}
+	#isg{
+		position: relative;
+		width:100%;
+		margin:50px 0px 0px 0px;
+		visibility: visible;
+}
+
+/* TABLET */
+@media only screen and (min-width: 480px) {
+body{
+		margin:0;
+		width:100%;
+		height:auto;
+		overflow-x:hidden;
+	}
+	#ai{
+		position: fixed;
+		visibility: hidden;
+	}
+	#ai1{
+		position: relative;
+		width:90%;
+		margin:0px 0px 0px 0px;
+		visibility: visible;
+	}
+	#ai2{
+		position: relative;
+		width:90%;
+		margin:0px 0px 0px 0px;
+		visibility: visible;
+	}
+	#rtrm{
+		position: fixed;
+		visibility: hidden;
+	}
+	#rtrd{
+		position: absolute;
+		width:30%;
+		margin:0px 0px 0px 0px;
+		visibility: visible;
+	}
+	#sk{
+		position: relative;
+		width:70%;
+		margin:-10px 15% 0px 15%;
+		visibility: visible;
+	}
+	.sk{
+		position: fixed;
+		visibility: hidden;
+	}
+	.rcf{
+		position: inherit;
+		width:35%;
+		margin:-185px 15% auto 45px;
+		float:right;
+	}
+	#fd{
+		position: relative;
+		width:84%;
+		margin:30px 35px 40px 15%;
+		visibility: visible;
+	}
+	#c{
+		position: relative;
+		width:70%;
+		margin:35px 15% 30px 15%;
+		visibility: visible;
+}
+	#fm{
+		position: fixed;
+		visibility: hidden;
+	}
+   #fm2{
+		position: fixed;
+		visibility: hidden;
+	}
+	#mid{
+		position: relative;
+		width:70%;
+		margin:30px 35px 0px 14%;
+		visibility: visible;
+	}
+	.rcp{
+		position: inherit;
+		width:35%;
+		margin:30px 15% auto 0px;
+		float:right;
+	}
+	#mid2{
+		position: relative;
+		width:70%;
+		margin:30px 35px 0px 10%;
+		visibility: visible;
+	}
+	.mim{
+		position: fixed;
+		visibility: hidden;
+	}
+	#ifm{
+		position: relative;
+		width:70%;
+		margin:50px 15% 0px 15%;
+		visibility: visible;
+	}
+#ifmb{
+		position: relative;
+		width:140%;
+		margin:70px 0px 0px -15%;
+		visibility: visible;
+	}
+#shmm{
+		position: fixed;
+		visibility: hidden;
+	}
+#shm{
+		position: relative;
+		width:100%;
+		margin:70px 0px 0px 0px;
+		visibility: visible;
+	}
+#b{
+		position: relative;
+		width:100%;
+		margin:50px 0px 0px 0px;
+		visibility: visible;
+}
+#bm{
+		position: fixed;
+		visibility: hidden;
+	}
+		#isg{
+		position: relative;
+		width:100%;
+		margin:50px 0px 0px 0px;
+		visibility: visible;
+}
+}
+/* DESKTOP */
+@media only screen and (min-width: 1500px) {
+	body{
+		margin:0;
+		width:100%;
+		height:auto;
+		overflow-x:hidden;
+	}
+	#ai{
+		position: fixed;
+		visibility: hidden;
+	}
+	#ai1{
+		position: relative;
+		width:90%;
+		margin:0px 0px 0px 0px;
+		visibility: visible;
+	}
+	#ai2{
+		position: relative;
+		width:90%;
+		margin:0px 0px 0px 0px;
+		visibility: visible;
+	}
+	#rtrm{
+		position: fixed;
+		visibility: hidden;
+	}
+	#rtrd{
+		position: absolute;
+		width:35%;
+		margin:0px 0px 0px 0px;
+		visibility: visible;
+	}
+	#sk{
+		position: relative;
+		width:84%;
+		margin:-100px 200px 0px 200px;
+		visibility: visible;
+	}
+	.sk{
+		position: fixed;
+		visibility: hidden;
+	}
+		#om{
+		position: relative;
+		width:100%;
+		margin:40px 0px 0px 0px;
+		visibility: visible;
+}
+	.rcom{
+		position: inherit;
+		width:35%;
+		margin:100px 200px auto 45px;
+		float:right;
+	}
+	.rcf{
+		position: inherit;
+		width:35%;
+		margin:-220px 200px auto 45px;
+		float:right;
+	}
+	#fd{
+		position: relative;
+		width:84%;
+		margin:30px 35px 40px 200px;
+		visibility: visible;
+	}
+	#fm{
+		position: fixed;
+		visibility: hidden;
+	}
+   #fm2{
+		position: fixed;
+		visibility: hidden;
+	}
+	#mid{
+		position: relative;
+		width:78%;
+		margin:30px 35px 0px 180px;
+		visibility: visible;
+	}
+	.rcp{
+		position: inherit;
+		width:35%;
+		margin:30px 200px auto 45px;
+		float:right;
+	}
+	#mid2{
+		position: relative;
+		width:80%;
+		margin:30px 35px 0px 120px;
+		visibility: visible;
+	}
+	.mim{
+		position: fixed;
+		visibility: hidden;
+	}
+	#rtbsm{
+		position: fixed;
+		visibility: hidden;
+	}
+	#rtbsd{
+	position: relative;
+		width:100%;
+		margin:0px 0px 0px 100px;
+		visibility: visible;
+}
+	#rtbsd2{
+		position: relative;
+		width:84%;
+		margin:30px 35px 0px 200px;
+		visibility: visible;
+	}
+	#sflat{
+		position: absolute;
+		width:100%;
+		height: inherit;
+		margin:1700px 0 0 0;
+	}
+	#ifm{
+		position: relative;
+		width:100%;
+		margin:50px 0px 0px 0px;
+		visibility: visible;
+	}
+#ifmb{
+		position: relative;
+		width:100%;
+		margin:50px 0px 0px 0px;
+		visibility: visible;
+	}
+#shmm{
+		position: fixed;
+		visibility: hidden;
+	}
+#shm{
+		position: relative;
+		width:100%;
+		margin:50px 0px 0px 0px;
+		visibility: visible;
+	}
+#b{
+		position: relative;
+		width:100%;
+		margin:50px 0px 0px 0px;
+		visibility: visible;
+}
+#bm{
+		position: fixed;
+		visibility: hidden;
+	}
+	#isg{
+		position: relative;
+		width:100%;
+		margin:50px 0px 0px 0px;
+		visibility: visible;
+}
+}
