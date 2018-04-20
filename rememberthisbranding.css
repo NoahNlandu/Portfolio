@@ -16,11 +16,11 @@ body{
 	}
 #ai1{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 	#ai2{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 #rtrm{
 		position: relative;
@@ -30,7 +30,7 @@ body{
 	}
 	#rtrd{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 #sk{
 		position: relative;
@@ -70,7 +70,7 @@ body{
 	}
 #fd{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 .mim{
 		position: relative;
@@ -83,11 +83,11 @@ body{
 	}
 #mid{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 #mid2{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 #rtp{
 		position: relative;
@@ -103,11 +103,11 @@ body{
 	}
 #rtbsd{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 #rtbsd2{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 #fim{
 		position: relative;
@@ -117,7 +117,7 @@ body{
 	}
 #fi{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 #rtg{
 	width:100%;
@@ -140,11 +140,11 @@ body{
 	}
 #ai1{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 	#ai2{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 #rtrm{
 		position: relative;
@@ -154,7 +154,7 @@ body{
 	}
 	#rtrd{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 #sk{
 		position: relative;
@@ -194,7 +194,7 @@ body{
 	}
 #fd{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 .mim{
 		position: relative;
@@ -207,11 +207,11 @@ body{
 	}
 #mid{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 #mid2{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 #rtp{
 		position: relative;
@@ -227,11 +227,11 @@ body{
 	}
 #rtbsd{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 #rtbsd2{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 #fim{
 		position: relative;
@@ -241,7 +241,7 @@ body{
 	}
 #fi{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 #rtg{
 	width:100%;
@@ -258,7 +258,7 @@ body{
 	}
 	#ai{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 	#ai1{
 		position: relative;
@@ -274,7 +274,7 @@ body{
 	}
 	#rtrm{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 	#rtrd{
 		position: absolute;
@@ -320,11 +320,11 @@ body{
 	}
 	#fm{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
    #fm2{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 	#mid{
 		position: relative;
@@ -346,11 +346,11 @@ body{
 	}
 	.mim{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 	#rtbsm{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 	#rtbsd{
 	position: relative;
@@ -366,7 +366,7 @@ body{
 	}	
 	#fim{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 	#fi{
 		position: relative;
@@ -389,7 +389,7 @@ body{
 	}
 	#ai{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 	#ai1{
 		position: relative;
@@ -405,7 +405,7 @@ body{
 	}
 	#rtrm{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 	#rtrd{
 		position: absolute;
@@ -451,11 +451,11 @@ body{
 	}
 	#fm{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
    #fm2{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 	#mid{
 		position: relative;
@@ -477,11 +477,11 @@ body{
 	}
 	.mim{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 	#rtbsm{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 	#rtbsd{
 	position: relative;
@@ -503,7 +503,7 @@ body{
 	}
 	#fim{
 		position: fixed;
-		visibility: hidden; overflow-x: hidden;
+		display: block; overflow-x: hidden;
 	}
 #fi{
 		position: relative;

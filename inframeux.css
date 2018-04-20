@@ -16,12 +16,12 @@ body{
 	}
 #ai1{
 		position: fixed;
-		visibility: hidden;
+		display: block;
 		overflow-x:hidden;
 	}
 	#ai2{
 		position: fixed;
-		visibility: hidden;
+		display: block;
 		overflow-x:hidden;
 	}
 #smw{
@@ -40,17 +40,17 @@ body{
 }
 #dsmw{
 		position: fixed;
-		visibility: hidden;
+		display: block;
 		overflow-x:hidden;
 }	
 #dsdw{
 		position: fixed;
-		visibility: hidden;
+		display: block;
 		overflow-x:hidden;
 }
 #dshfw{
 		position: fixed;
-		visibility: hidden;
+		display: block;
 		overflow-x:hidden;
 }	
 #mf{
@@ -99,11 +99,11 @@ body{
 	}
 #ai1{
 		position: fixed;
-		visibility: hidden;
+		display: block;
 	}
 	#ai2{
 		position: fixed;
-		visibility: hidden;
+		display: block;
 	}
 #smw{
 	width:80%;
@@ -121,15 +121,15 @@ body{
 }
 #dsmw{
 		position: fixed;
-		visibility: hidden;
+		display: block;
 }	
 #dsdw{
 		position: fixed;
-		visibility: hidden;
+		display: block;
 }
 #dshfw{
 		position: fixed;
-		visibility: hidden;
+		display: block;
 }	
 #mf{
 	width:90%;
@@ -172,7 +172,7 @@ body{
 	}
 		#ai{
 		position: fixed;
-		visibility: hidden;
+		display: block;
 	}
 	#ai1{
 		position: relative;
@@ -188,15 +188,15 @@ body{
 	}
 	#smw{
 		position: fixed;
-		visibility: hidden;
+		display: block;
 }	
 	#sdw{
 		position: fixed;
-		visibility: hidden;
+		display: block;
 }
 	#shfw{
 		position: fixed;
-		visibility: hidden;
+		display: block;
 }	
 	#dsmw{
 		position: relative;
@@ -270,7 +270,7 @@ body{
 	}
 	#ai{
 		position: fixed;
-		visibility: hidden;
+		display: block;
 	}
 	#ai1{
 		position: relative;
@@ -286,15 +286,15 @@ body{
 	}
 	#smw{
 		position: fixed;
-		visibility: hidden;
+		display: block;
 }	
 	#sdw{
 		position: fixed;
-		visibility: hidden;
+		display: block;
 }
 	#shfw{
 		position: fixed;
-		visibility: hidden;
+		display: block;
 }	
 	#dsmw{
 		position: relative;

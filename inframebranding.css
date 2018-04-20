@@ -16,12 +16,12 @@ body{
 	}
 #ai1{
 		position: fixed;
-		visibility: hidden;
+		 display: block;
 		overflow-x:hidden;
 	}
 	#ai2{
 		position: fixed;
-		visibility: hidden;
+		display: block;
 		overflow-x:hidden;
 	}
 #rtrm{
@@ -32,12 +32,12 @@ body{
 	}
 	#rtrd{
 		position: fixed;
-		visibility: hidden;
+		display: block;
 		overflow-x:hidden;
 	}
 #sk{
 		position: fixed;
-		visibility: hidden;
+		display: block;
 		overflow-x:hidden;
 	}
 .sk{
@@ -72,7 +72,7 @@ body{
 	}
 #fd{
 		position: fixed;
-		visibility: hidden;
+		display: block;
 		overflow-x:hidden;
 	}
 #c{
@@ -92,12 +92,12 @@ body{
 	}
 #mid{
 		position: fixed;
-		visibility: hidden;
+		 display:block;
 		overflow-x:hidden;
 	}
 #mid2{
 		position: fixed;
-		visibility: hidden;
+		display: block;
 		overflow-x:hidden;
 	}
 #ifm{
@@ -105,6 +105,7 @@ body{
 		width:85%;
 		margin:20px 35px 0px 35px;
 		visibility: visible;
+		overflow-x:hidden;
 	}
 #ifmb{
 		position: relative;
@@ -118,15 +119,16 @@ body{
 		width:100%;
 		margin:50px 0px 0px 0px;
 		visibility: visible;
+		overflow-x:hidden;
 	}
 #shm{
 		position: fixed;
-		visibility: hidden;
+		display: block;
 		overflow-x:hidden;
 	}
 #b{
 		position: fixed;
-		visibility: hidden;
+		display: block;
 		overflow-x:hidden;
 }
 #bm{
@@ -141,6 +143,7 @@ body{
 		width:100%;
 		margin:50px 0px 0px 0px;
 		visibility: visible;
+		overflow-x:hidden;
 }
 
 /* MOBILE XL */
@@ -159,11 +162,11 @@ body{
 	}
 #ai1{
 		position: fixed;
-		visibility: hidden;
+		 display:block;
 	}
 	#ai2{
 		position: fixed;
-		visibility: hidden;
+		 display:block;
 	}
 #rtrm{
 		position: relative;
@@ -173,11 +176,11 @@ body{
 	}
 	#rtrd{
 		position: fixed;
-		visibility: hidden;
+		 display:block;
 	}
 #sk{
 		position: fixed;
-		visibility: hidden;
+		 display:block;
 	}
 .sk{
 		position: relative;
@@ -211,7 +214,7 @@ body{
 	}
 #fd{
 		position: fixed;
-		visibility: hidden;
+		 display:block;
 	}
 #c{
 		position: relative;
@@ -230,11 +233,11 @@ body{
 	}
 #mid{
 		position: fixed;
-		visibility: hidden;
+		 display:block;
 	}
 #mid2{
 		position: fixed;
-		visibility: hidden;
+		 display:block;
 	}
 #ifm{
 		position: relative;
@@ -257,11 +260,11 @@ body{
 	}
 #shm{
 		position: fixed;
-		visibility: hidden;
+		 display:block;
 	}
 #b{
 		position: fixed;
-		visibility: hidden;
+		 display:block;
 }
 #bm{
 		position: relative;
@@ -287,7 +290,7 @@ body{
 	}
 	#ai{
 		position: fixed;
-		visibility: hidden;
+		 display:block;
 	}
 	#ai1{
 		position: relative;
@@ -303,7 +306,7 @@ body{
 	}
 	#rtrm{
 		position: fixed;
-		visibility: hidden;
+		 display:block;
 	}
 	#rtrd{
 		position: fixed;
@@ -319,7 +322,7 @@ body{
 	}
 	.sk{
 		position: fixed;
-		visibility: hidden;
+		 display:block;
 	}
 	.rcf{
 		position: inherit;
@@ -341,11 +344,11 @@ body{
 }
 	#fm{
 		position: fixed;
-		visibility: hidden;
+		 display:block;
 	}
    #fm2{
 		position: fixed;
-		visibility: hidden;
+		 display:block;
 	}
 	#mid{
 		position: relative;
@@ -367,7 +370,7 @@ body{
 	}
 	.mim{
 		position: fixed;
-		visibility: hidden;
+		 display:block;
 	}
 	#ifm{
 		position: relative;
@@ -383,7 +386,7 @@ body{
 	}
 #shmm{
 		position: fixed;
-		visibility: hidden;
+		 display:block;
 	}
 #shm{
 		position: relative;
@@ -399,7 +402,7 @@ body{
 }
 #bm{
 		position: fixed;
-		visibility: hidden;
+		 display:block;
 	}
 		#isg{
 		position: relative;
@@ -418,7 +421,7 @@ body{
 	}
 	#ai{
 		position: fixed;
-		visibility: hidden;
+		 display:block;
 	}
 	#ai1{
 		position: relative;
@@ -434,7 +437,7 @@ body{
 	}
 	#rtrm{
 		position: fixed;
-		visibility: hidden;
+		 display:block;
 	}
 	#rtrd{
 		position: relative;
@@ -450,7 +453,7 @@ body{
 	}
 	.sk{
 		position: fixed;
-		visibility: hidden;
+		 display:block;
 	}
 		#om{
 		position: relative;
@@ -478,11 +481,11 @@ body{
 	}
 	#fm{
 		position: fixed;
-		visibility: hidden;
+		 display:block;
 	}
    #fm2{
 		position: fixed;
-		visibility: hidden;
+		 display:block;
 	}
 	#mid{
 		position: relative;
@@ -504,11 +507,11 @@ body{
 	}
 	.mim{
 		position: fixed;
-		visibility: hidden;
+		 display:block;
 	}
 	#rtbsm{
 		position: fixed;
-		visibility: hidden;
+		 display:block;
 	}
 	#rtbsd{
 		position: relative;
@@ -542,7 +545,7 @@ body{
 	}
 #shmm{
 		position: fixed;
-		visibility: hidden;
+		 display:block;
 	}
 #shm{
 		position: relative;
@@ -558,7 +561,7 @@ body{
 }
 #bm{
 		position: fixed;
-		visibility: hidden;
+		 display:block;
 	}
 	#isg{
 		position: relative;
