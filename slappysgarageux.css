@@ -16,11 +16,11 @@ body{
 	}
 #ai1{
 		position: fixed;
-		visibility: hidden;
+		visibility: hidden; overflow-x: hidden;
 	}
 	#ai2{
 		position: fixed;
-		visibility: hidden;
+		visibility: hidden; overflow-x: hidden;
 	}
 #smw{
 	width:90%;
@@ -32,21 +32,21 @@ body{
 }
 #shfw{
 	align-content:center;
-	width:80%;
-	margin:0px 5px 0px -15px;
+	width:110%;
+	margin:0px 5px 0px -30px;
 	overflow-x:hidden;
 }
 #dsmw{
 		position: fixed;
-		visibility: hidden;
+		visibility: hidden; overflow-x: hidden;
 }	
 #dsdw{
 		position: fixed;
-		visibility: hidden;
+		visibility: hidden; overflow-x: hidden;
 }
 #dshfw{
 		position: fixed;
-		visibility: hidden;
+		visibility: hidden; overflow-x: hidden;
 }	
 #mf{
 	width:90%;
@@ -87,11 +87,11 @@ body{
 	}
 #ai1{
 		position: fixed;
-		visibility: hidden;
+		visibility: hidden; overflow-x: hidden;
 	}
 	#ai2{
 		position: fixed;
-		visibility: hidden;
+		visibility: hidden; overflow-x: hidden;
 	}
 #smw{
 	width:80%;
@@ -109,7 +109,7 @@ body{
 }
 #dsmw{
 		position: fixed;
-		visibility: hidden;
+		visibility: hidden; overflow-x: hidden;
 }	
 #dsdw{
 		position:fixed;
@@ -153,7 +153,7 @@ body{
 	}
 		#ai{
 		position: fixed;
-		visibility: hidden;
+		visibility: hidden; overflow-x: hidden;
 	}
 	#ai1{
 		position: relative;
@@ -169,15 +169,15 @@ body{
 	}
 	#smw{
 		position: fixed;
-		visibility: hidden;
+		visibility: hidden; overflow-x: hidden;
 }	
 	#sdw{
 		position: fixed;
-		visibility: hidden;
+		visibility: hidden; overflow-x: hidden;
 }
 	#shfw{
 		position: fixed;
-		visibility: hidden;
+		visibility: hidden; overflow-x: hidden;
 }	
 	#dsmw{
 		position: relative;
@@ -235,7 +235,7 @@ body{
 	}
 	#ai{
 		position: fixed;
-		visibility: hidden;
+		visibility: hidden; overflow-x: hidden;
 	}
 	#ai1{
 		position: relative;
@@ -251,15 +251,15 @@ body{
 	}
 	#smw{
 		position: fixed;
-		visibility: hidden;
+		visibility: hidden; overflow-x: hidden;
 }	
 	#sdw{
 		position: fixed;
-		visibility: hidden;
+		visibility: hidden; overflow-x: hidden;
 }
 	#shfw{
 		position: fixed;
-		visibility: hidden;
+		visibility: hidden; overflow-x: hidden;
 }	
 	#dsmw{
 		position: relative;

@@ -15,12 +15,14 @@ body{
 		visibility: visible;
 	}
 #ai1{
-		position: absolute;
+		position: fixed;
 		visibility: hidden;
+		overflow-x:hidden;
 	}
 	#ai2{
-		position: absolute;
+		position: fixed;
 		visibility: hidden;
+		overflow-x:hidden;
 	}
 #smw{
 	width:90%;
@@ -33,20 +35,23 @@ body{
 #shfw{
 	align-content:center;
 	width:120%;
-	margin:0px 35px 0px -8%;
+	margin:0px 35px 0px -12%;
 	overflow-x:hidden;
 }
 #dsmw{
-		position: absolute;
+		position: fixed;
 		visibility: hidden;
+		overflow-x:hidden;
 }	
 #dsdw{
-		position: absolute;
+		position: fixed;
 		visibility: hidden;
+		overflow-x:hidden;
 }
 #dshfw{
-		position: absolute;
+		position: fixed;
 		visibility: hidden;
+		overflow-x:hidden;
 }	
 #mf{
 	width:90%;
@@ -68,7 +73,7 @@ body{
 }
 #pm{
 	width:160%;
-	margin:-260px 0px 0px -40%;
+	margin:-150px 0px 0px -40%;
 	overflow-x:hidden;
 }
 #lp{
@@ -93,11 +98,11 @@ body{
 		visibility: visible;
 	}
 #ai1{
-		position: absolute;
+		position: fixed;
 		visibility: hidden;
 	}
 	#ai2{
-		position: absolute;
+		position: fixed;
 		visibility: hidden;
 	}
 #smw{
@@ -115,15 +120,15 @@ body{
 	overflow-x:hidden;
 }
 #dsmw{
-		position: absolute;
+		position: fixed;
 		visibility: hidden;
 }	
 #dsdw{
-		position: absolute;
+		position: fixed;
 		visibility: hidden;
 }
 #dshfw{
-		position: absolute;
+		position: fixed;
 		visibility: hidden;
 }	
 #mf{
@@ -166,7 +171,7 @@ body{
 		overflow-x:hidden;
 	}
 		#ai{
-		position: absolute;
+		position: fixed;
 		visibility: hidden;
 	}
 	#ai1{
@@ -182,15 +187,15 @@ body{
 		visibility: visible;
 	}
 	#smw{
-		position: absolute;
+		position: fixed;
 		visibility: hidden;
 }	
 	#sdw{
-		position: absolute;
+		position: fixed;
 		visibility: hidden;
 }
 	#shfw{
-		position: absolute;
+		position: fixed;
 		visibility: hidden;
 }	
 	#dsmw{
@@ -251,7 +256,7 @@ body{
 	margin:840px 15% 0px 15%;
 }
 	#dm{
-		position: absolute;
+		position: fixed;
 		width:100%;
 	}
 }
@@ -264,7 +269,7 @@ body{
 		overflow-x:hidden;
 	}
 	#ai{
-		position: absolute;
+		position: fixed;
 		visibility: hidden;
 	}
 	#ai1{
@@ -280,15 +285,15 @@ body{
 		visibility: visible;
 	}
 	#smw{
-		position: absolute;
+		position: fixed;
 		visibility: hidden;
 }	
 	#sdw{
-		position: absolute;
+		position: fixed;
 		visibility: hidden;
 }
 	#shfw{
-		position: absolute;
+		position: fixed;
 		visibility: hidden;
 }	
 	#dsmw{
