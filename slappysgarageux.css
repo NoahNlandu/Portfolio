@@ -4,7 +4,7 @@
 /* MOBILE */
 body{
 		margin:0;
-		width:100%;
+		width:100vw;
 		height:auto;
 		overflow-x:hidden;
 	}
@@ -34,6 +34,77 @@ body{
 	align-content:center;
 	width:80%;
 	margin:0px 5px 0px -15px;
+	overflow-x:hidden;
+}
+#dsmw{
+		position: fixed;
+		visibility: hidden;
+}	
+#dsdw{
+		position: fixed;
+		visibility: hidden;
+}
+#dshfw{
+		position: fixed;
+		visibility: hidden;
+}	
+#mf{
+	width:90%;
+	margin:-40px 0px 0px -5px;
+	float:left;
+	overflow-x:hidden;
+}
+#df{
+	width:90%;
+	margin:0px 0px 0px 110px;
+	float:left;
+	overflow-x:hidden;
+}
+#pm{
+	width:130%;
+	margin:-100px 0px 0px -100px;
+	overflow-x:hidden;
+}
+#lp{
+	align-content:center;
+	width:374px;
+	margin:30px 0px 0px 10px;
+	float:left;
+}
+/* MOBILE XL */
+@media only screen and (min-width: 480px) {
+body{
+		margin:0;
+		width:100vw;
+		height:auto;
+		overflow-x:hidden;
+	}
+#ai{
+		position: relative;
+		width:80%;
+		margin:30px 10% 0px 10%;
+		visibility: visible;
+	}
+#ai1{
+		position: fixed;
+		visibility: hidden;
+	}
+	#ai2{
+		position: fixed;
+		visibility: hidden;
+	}
+#smw{
+	width:80%;
+	margin:0px 5px 0px 8%;
+}
+#sdw{
+	width:90%;
+	margin:25px 5px 0px 17px;
+}
+#shfw{
+	align-content:center;
+	width:108%;
+	margin:0px 5px 0px -5%;
 	overflow:hidden;
 }
 #dsmw{
@@ -62,7 +133,7 @@ body{
 }
 #pm{
 	width:130%;
-	margin:-100px 0px 0px -100px;
+	margin:-100px 0px 0px -250px;
 	overflow:hidden;
 }
 #lp{
@@ -71,12 +142,12 @@ body{
 	margin:30px 0px 0px 10px;
 	float:left;
 }
-
+}
 /* TABLET */
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 1000px) {
 body{
 		margin:0;
-		width:100%;
+		width:100vw;
 		height:auto;
 		overflow-x:hidden;
 	}
@@ -158,7 +229,7 @@ body{
 @media only screen and (min-width: 1500px) {
 body{
 		margin:0;
-		width:100%;
+		width:100vw;
 		height:auto;
 		overflow-x:hidden;
 	}
@@ -232,7 +303,7 @@ body{
 }
 	#lp{
 	align-content:center;
-	width:90%;
+	width:82%;
 	margin:60px 150px 0px 150px;
 }
 }

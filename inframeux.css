@@ -4,7 +4,7 @@
 /* MOBILE */
 body{
 		margin:0;
-		width:100%;
+		width:100vw;
 		height:auto;
 		overflow-x:hidden;
 	}
@@ -27,38 +27,38 @@ body{
 	margin:0px 5px 0px 17px;
 }
 #sdw{
-	width:90%;
-	margin:25px 5px 0px 17px;
+	width:80%;
+	margin:25px 5px 0px 8%;
 }
 #shfw{
 	align-content:center;
 	width:120%;
 	margin:0px 35px 0px -8%;
-	overflow:hidden;
+	overflow-x:hidden;
 }
 #dsmw{
 		position: fixed;
 		visibility: hidden;
 }	
 #dsdw{
-		position:fixed;
-	visibility:hidden;
+		position: fixed;
+		visibility: hidden;
 }
 #dshfw{
-		position:fixed;
-	visibility:hidden;
+		position: fixed;
+		visibility: hidden;
 }	
 #mf{
 	width:90%;
 	margin:-40px 0px 0px -5px;
 	float:left;
-	overflow:hidden;
+	overflow-x:hidden;
 }
 #df{
 	width:90%;
 	margin:0px 0px 0px 130px;
 	float:left;
-	overflow:hidden;
+	overflow-x:hidden;
 }
 #pt{
 	align-content:center;
@@ -68,8 +68,8 @@ body{
 }
 #pm{
 	width:160%;
-	margin:-100px 0px 0px -40%;
-	overflow:hidden;
+	margin:-260px 0px 0px -40%;
+	overflow-x:hidden;
 }
 #lp{
 	align-content:center;
@@ -78,11 +78,90 @@ body{
 	float:left;
 }
 
-/* TABLET */
+/* MOBILE XL */
 @media only screen and (min-width: 480px) {
 body{
 		margin:0;
-		width:100%;
+		width:100vw;
+		height:auto;
+		overflow-x:hidden;
+	}
+#ai{
+		position: relative;
+		width:80%;
+		margin:30px 10% 0px 10%;
+		visibility: visible;
+	}
+#ai1{
+		position: fixed;
+		visibility: hidden;
+	}
+	#ai2{
+		position: fixed;
+		visibility: hidden;
+	}
+#smw{
+	width:80%;
+	margin:0px 5px 0px 6%;
+}
+#sdw{
+	width:90%;
+	margin:25px 5px 0px 7%;
+}
+#shfw{
+	align-content:center;
+	width:120%;
+	margin:0px 35px 0px -8%;
+	overflow-x:hidden;
+}
+#dsmw{
+		position: fixed;
+		visibility: hidden;
+}	
+#dsdw{
+		position: fixed;
+		visibility: hidden;
+}
+#dshfw{
+		position: fixed;
+		visibility: hidden;
+}	
+#mf{
+	width:90%;
+	margin:-40px 0px 0px -5px;
+	float:left;
+	overflow-x:hidden;
+}
+#df{
+	width:90%;
+	margin:0px 0px 0px 130px;
+	float:left;
+	overflow-x:hidden;
+}
+#pt{
+	align-content:center;
+	width:70%;
+	margin:30px 15% 0px 15%;
+	float:left;
+}
+#pm{
+	width:160%;
+	margin:-30% 0px 0px -40%;
+	overflow-x:hidden;
+}
+#lp{
+	align-content:center;
+	width:80%;
+	margin:70px 10% 0px 10%;
+	float:left;
+}
+}
+
+/* TABLET */
+@media only screen and (min-width: 1000px) {
+body{
+		margin:0;
+		width:100vw;
 		height:auto;
 		overflow-x:hidden;
 	}
@@ -134,30 +213,36 @@ body{
 }	
 	#mf{
 	width:60%;
-	margin:-350px 0px 50px -30px;
+	margin:-320px 0px 50px -30px;
 	float:left;
 }
 	#df{
 	width:60%;
 	margin:-80px -150px 0px 0px;
 	float:right;
-	overflow:hidden;
+	overflow-x:hidden;
 }
 	#sflat{
 		position: absolute;
 		width:100%;
 		height: inherit;
-		margin:1700px 0 0 0;
+		margin: 1300px 0 0 0;
 	}
+	#pt{
+	align-content:center;
+	width:65%;
+	margin:30px 15% 0px 15%;
+	float:left;
+}
 	#pm{
 	width:120%;
-	margin:1000px 0px 0px -15%;
-	overflow:hidden;
+	margin:1200px 0px 0px -15%;
+	overflow-x:hidden;
 }
 	#lp{
 	align-content:center;
 	width:70%;
-	margin:1040px 15% 0px 15%;
+	margin:840px 15% 0px 15%;
 }
 	#dm{
 		position: absolute;
@@ -168,7 +253,7 @@ body{
 @media only screen and (min-width: 1500px) {
 	body{
 		margin:0;
-		width:100%;
+		width:100vw;
 		height:auto;
 		overflow-x:hidden;
 	}
@@ -219,13 +304,13 @@ body{
 		visibility: visible;
 }	
 	#mf{
-	width:1400px;
-	margin:-470px 0px 50px -130px;
+	width:90%;
+	margin:-370px 0px 50px -130px;
 	float:left;
 }
 	#df{
-	width:1500px;
-	margin:-400px -450px 0px 0px;
+	width:90%;
+	margin:-290px -450px 0px 0px;
 	float:right;
 	overflow:hidden;
 }
@@ -233,16 +318,22 @@ body{
 		position: absolute;
 		width:100%;
 		height: inherit;
-		margin:1700px 0 0 0;
+		margin: 1600px 0 0 0;
 	}
+	#pt{
+	align-content: center;
+	width:65%;
+	margin:30px 15% 0px 15%;
+	float:left;
+}
 	#pm{
 	width:90%;
-	margin:-100px 0px 0px -100px;
+	margin:1530px 0px 0px -125px;
 	overflow:hidden;
 }
 	#lp{
 	align-content:center;
-	width:90%;
-	margin:30px 150px 0px 150px;
+	width:80%;
+	margin:830px 150px 0px 150px;
 }
 }

@@ -4,7 +4,7 @@
 /* MOBILE */
 body{
 		margin:0;
-		width:100%;
+		width:100vw;
 		height:auto;
 		overflow-x:hidden;
 	}
@@ -28,7 +28,7 @@ pwork{
 		margin:0 0 0px 0px;
 	}
 h2work{
-	position:relative;
+		position: relative;
 	    font-family:"Rambla", sans-serif;
 		font-size:18px;
 		line-height:22px;
@@ -37,7 +37,7 @@ h2work{
 		float:left;
 }
 p2work{
-	position:relative;
+		position: relative;
 	    font-family:"Rambla", sans-serif;
 		font-size:16px;
 		line-height:22px;
@@ -54,11 +54,80 @@ hwork{
 	    margin:60px 35px 15px 35px;
 		float:left;
 }
-/* TABLET */
+/* MOBILE XL */
 @media only screen and (min-width: 480px) {
+body{
+		margin:0;
+		width:100vw;
+		height:auto;
+		overflow-x:hidden;
+	}
+.hi{
+		width:100%;
+		margin:0 0 25px 0;
+	}
+pwork{
+		position: relative;
+	    font-family:"Rambla", sans-serif;
+		font-size:20px;
+		line-height:30px;
+		color:black;
+	    margin:0px 10% 10px 10%;
+		float:left;
+}
+.lc{
+		margin:0 0 0px 0px;
+		width:100%;
+}
+	#lcs{
+		position:relative;
+		margin:0px 0 0px 0px;
+		width:100%;
+		float:left;
+}
+	#lcs2{
+		position:relative;
+		margin:0px 0 0px 0px;
+		width:100%;
+		float:left;
+}
+.rc{
+		margin:0 0 0px 0px;
+		width:100%;
+	}
+	h2work{
+		position: relative;
+	    font-family:"Rambla", sans-serif;
+		font-size:18px;
+		line-height:22px;
+		color:black;
+	    margin:30px 10% 15px 10%;
+		float:left;
+}
+p2work{
+		position: relative;
+	    font-family:"Rambla", sans-serif;
+		font-size:16px;
+		line-height:28px;
+		color:black;
+	    margin:0px 10% 10px 10%;
+		float:left;
+}
+hwork{
+		position: relative;
+	    font-family:"Rambla", sans-serif;
+		font-size:18px;
+		line-height:22px;
+		color:black;
+	    margin:60px 10% 15px 10%;
+		float:left;
+}
+}
+/* TABLET */
+@media only screen and (min-width: 1000px) {
 	body{
 		margin:0;
-		width:100%;
+		width:100vw;
 		height:auto;
 		overflow-x:hidden;
 	}
@@ -86,6 +155,14 @@ hwork{
 		width:35%;
 		margin:0 0 auto 15%;
 		float:left;
+}
+	#lcs{
+		width:35%;
+		margin:35px 0 auto -35%;
+}
+	#lcs2{
+		width:35%;
+		margin:35px 0 auto -35%;
 }
 	.rc{
 		position: inherit;
@@ -126,7 +203,7 @@ hwork{
 @media only screen and (min-width: 1500px) {
 	body{
 		margin:0;
-		width:100%;
+		width:100vw;
 		height:auto;
 		overflow-x:hidden;
 	}
@@ -186,7 +263,7 @@ hwork{
 		font-size:32px;
 		line-height:32px;
 		color:black;
-	    margin:60px 35px 15p 15%;
+	    margin:60px 35px 15px 15%;
 		float:left;
 }
 }

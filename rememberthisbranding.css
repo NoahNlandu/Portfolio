@@ -4,7 +4,7 @@
 /* MOBILE */
 body{
 		margin:0;
-		width:100%;
+		width:100vw;
 		height:auto;
 		overflow-x:hidden;
 	}
@@ -45,7 +45,7 @@ body{
 		visibility: visible;
 	}
 #om{
-	position: relative;
+		position: relative;
 		width:84%;
 		margin:30px 35px 30px 35px;
 		visibility: visible;
@@ -124,11 +124,135 @@ body{
 	margin:5px 0 0 0;
 }
 
-/* TABLET */
+/* MOBILE XL */
 @media only screen and (min-width: 480px) {
 body{
 		margin:0;
+		width:100vw;
+		height:auto;
+		overflow-x:hidden;
+	}
+#ai{
+		position: relative;
+		width:80%;
+		margin:30px 10% 0px 10%;
+		visibility: visible;
+	}
+#ai1{
+		position: fixed;
+		visibility: hidden;
+	}
+	#ai2{
+		position: fixed;
+		visibility: hidden;
+	}
+#rtrm{
+		position: relative;
+		width:80%;
+		margin:30px 10% 0px 10%;
+		visibility: visible;
+	}
+	#rtrd{
+		position: fixed;
+		visibility: hidden;
+	}
+#sk{
+		position: relative;
+		width:80%;
+		margin:30px 10% 0px 10%;
+		visibility: visible;
+	}
+.sk{
+		position: relative;
+		width:80%;
+		margin:30px 10% 0px 10%;
+		visibility: visible;
+	}
+#om{
+		position: relative;
+		width:80%;
+		margin:30px 10% 30px 10%;
+		visibility: visible;
+}
+	.rcom{
+		margin:0 0 0px 0px;
+}
+.rcf{
+		margin:0 0 0px 0px;
+	}
+#fm{
+		position: relative;
+		width:80%;
+		margin:0px 10% 0px 10%;
+		visibility: visible;
+	}
+#fm2{
+		position: relative;
+		width:80%;
+		margin:35px 10% 30px 10%;
+		visibility: visible;
+	}
+#fd{
+		position: fixed;
+		visibility: hidden;
+	}
+.mim{
+		position: relative;
+		width:80%;
+		margin:30px 10% 0px 5%;
+		visibility: visible;
+	}
+.rcp{
+		margin:0 0 0px 0px;
+	}
+#mid{
+		position: fixed;
+		visibility: hidden;
+	}
+#mid2{
+		position: fixed;
+		visibility: hidden;
+	}
+#rtp{
+		position: relative;
 		width:100%;
+		margin:0px 0px 0px 0px;
+		visibility: visible;
+	}
+#rtbsm{
+		position: relative;
+		width:84%;
+		margin:50px 35px 0px 35px;
+		visibility: visible;
+	}
+#rtbsd{
+		position: fixed;
+		visibility: hidden;
+	}
+#rtbsd2{
+		position: fixed;
+		visibility: hidden;
+	}
+#fim{
+		position: relative;
+		width:100%;
+		margin:50px 0px 0px 0px;
+		visibility: visible;
+	}
+#fi{
+		position: fixed;
+		visibility: hidden;
+	}
+#rtg{
+	width:100%;
+	margin:5px 0 0 0;
+}
+}
+/* TABLET */
+@media only screen and (min-width: 1000px) {
+body{
+		margin:0;
+		width:100vw;
 		height:auto;
 		overflow-x:hidden;
 	}

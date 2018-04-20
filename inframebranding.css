@@ -4,7 +4,7 @@
 /* MOBILE */
 body{
 		margin:0;
-		width:100%;
+		width:100vw;
 		height:auto;
 		overflow-x:hidden;
 	}
@@ -121,6 +121,140 @@ body{
 		visibility: hidden;
 }
 #bm{
+		position: relative;
+		width:100%;
+		margin:50px 0px 0px 0px;
+		visibility: visible;
+		overflow-x:hidden;
+}
+	#isg{
+		position: relative;
+		width:100%;
+		margin:50px 0px 0px 0px;
+		visibility: visible;
+}
+
+/* MOBILE XL */
+@media only screen and (min-width: 480px) {
+body{
+		margin:0;
+		width:100vw;
+		height:auto;
+		overflow-x:hidden;
+	}
+#ai{
+		position: relative;
+		width:80%;
+		margin:30px 10% 0px 10%;
+		visibility: visible;
+	}
+#ai1{
+		position: fixed;
+		visibility: hidden;
+	}
+	#ai2{
+		position: fixed;
+		visibility: hidden;
+	}
+#rtrm{
+		position: relative;
+		width:80%;
+		margin:30px 10% 0px 10%;
+		visibility: visible;
+	}
+	#rtrd{
+		position: fixed;
+		visibility: hidden;
+	}
+#sk{
+		position: fixed;
+		visibility: hidden;
+	}
+.sk{
+		position: relative;
+		width:80%;
+		margin:30px 10% 0px 10%;
+		visibility: visible;
+	}
+#om{
+	position: relative;
+		width:80%;
+		margin:30px 10% 30px 10%;
+		visibility: visible;
+}
+	.rcom{
+		margin:0 0 0px 0px;
+}
+.rcf{
+		margin:0 0 0px 0px;
+	}
+#fm{
+		position: relative;
+		width:80%;
+		margin:0px 10% 0px 10%;
+		visibility: visible;
+	}
+#fm2{
+		position: relative;
+		width:80%;
+		margin:35px 10% 30px 10%;
+		visibility: visible;
+	}
+#fd{
+		position: fixed;
+		visibility: hidden;
+	}
+#c{
+		position: relative;
+		width:80%;
+		margin:35px 10% 30px 10%;
+		visibility: visible;
+}
+.mim{
+		position: relative;
+		width:80%;
+		margin:30px 10% 0px 10%;
+		visibility: visible;
+	}
+.rcp{
+		margin:0 0 0px 0px;
+	}
+#mid{
+		position: fixed;
+		visibility: hidden;
+	}
+#mid2{
+		position: fixed;
+		visibility: hidden;
+	}
+#ifm{
+		position: relative;
+		width:80%;
+		margin:20px 10% 0px 10%;
+		visibility: visible;
+	}
+#ifmb{
+		position: relative;
+		width:120%;
+		margin:50px 0px 0px -60px;
+		visibility: visible;
+		overflow-x:hidden;
+	}
+#shmm{
+		position: relative;
+		width:100%;
+		margin:50px 0px 0px 0px;
+		visibility: visible;
+	}
+#shm{
+		position: fixed;
+		visibility: hidden;
+	}
+#b{
+		position: fixed;
+		visibility: hidden;
+}
+#bm{
 	position: relative;
 		width:100%;
 		margin:50px 0px 0px 0px;
@@ -132,9 +266,10 @@ body{
 		margin:50px 0px 0px 0px;
 		visibility: visible;
 }
+}
 
 /* TABLET */
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 1000px) {
 body{
 		margin:0;
 		width:100%;

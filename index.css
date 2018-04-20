@@ -4,7 +4,7 @@
 /* MOBILE */
 	body{
 		margin:0;
-		width:100%;
+		width:100vw;
 		height:auto;
 		overflow-x:hidden;
 	}
@@ -221,11 +221,11 @@ footer a:link, footer a:visited {
 		padding:0;
 		text-decoration:none;
 }
-/* TABLET */
+/* MOBILE XL */
 @media only screen and (min-width: 480px) {
 body{
 		margin:0;
-		width:100%;
+		width:100vw;
 		height:auto;
 		overflow-x:hidden;
 	}
@@ -305,9 +305,9 @@ body{
 	h1{
 		position: relative;
 	    font-family:"Rambla", sans-serif;
-		font-size:50px;
+		font-size:32px;
 		color:black;
-	    margin:75px 0px 25px 150px;
+	    margin:75px 0px 25px 10%;
 }
     h2{
 	    position:relative;
@@ -369,11 +369,27 @@ body{
 		visibility: visible;
 }	
 }
+/* TABLET */
+@media only screen and (min-width: 1000px) {
+body{
+		margin:0;
+		width:100vw;
+		height:auto;
+		overflow-x:hidden;
+	}
+	h1{
+		position: relative;
+	    font-family:"Rambla", sans-serif;
+		font-size:45px;
+		color:black;
+	    margin:75px 0px 25px 15%;
+}
+}
 	/* DESKTOP */
 @media only screen and (min-width: 1500px) {
 	body{
 		margin:0;
-		width:100%;
+		width:100vw;
 		height:auto;
 		overflow-x:hidden;
 	}

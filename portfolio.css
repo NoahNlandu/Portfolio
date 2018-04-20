@@ -4,7 +4,7 @@
 /* MOBILE */
 body{
 		margin:0;
-		width:100%;
+		width:100%vw;
 		height:auto;
 		overflow-x:hidden;
 	}
@@ -23,11 +23,38 @@ body{
 		margin:-104px 35px 5px 60%;
 		float:right;
 }
-/* TABLET */
+
+/* MOBILE XL */
 @media only screen and (min-width: 480px) {
+body{
+		margin:0;
+		width:100vw;
+		height:auto;
+		overflow-x:hidden;
+	}
+#ux{
+		position:relative;
+	    margin:-140px 40px 0px 65%;
+		float:left;
+}
+.icon{
+		width:25%;
+		height:auto;
+		margin:40px 35px 5px 10%;
+		float:left;
+}
+.icon2{
+		width:25%;
+		height:auto;
+		margin:-22% 10% 5px 30%;
+		float:right;
+}
+}
+/* TABLET */
+@media only screen and (min-width: 1000px) {
 	body{
 		margin:0;
-		width:100%;
+		width:100vw;
 		height:auto;
 		overflow-x:hidden;
 	}
