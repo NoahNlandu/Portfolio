@@ -104,6 +104,7 @@ body{
 		width:120%;
 		margin:50px 0px 0px -30px;
 		visibility: visible;
+		overflow-x:hidden;
 	}
 #shmm{
 		position: relative;

@@ -2,6 +2,12 @@
 /* CSS Document */
 
 /* MOBILE */
+body{
+		margin:0;
+		width:100%;
+		height:auto;
+		overflow-x:hidden;
+	}
 #ai{
 		position: relative;
 		width:84%;
@@ -26,8 +32,9 @@
 }
 #shfw{
 	align-content:center;
-	width:425px;
-	margin:0px 5px 0px 0px;
+	width:120%;
+	margin:0px 35px 0px -8%;
+	overflow:hidden;
 }
 #dsmw{
 		position: fixed;
@@ -42,26 +49,32 @@
 	visibility:hidden;
 }	
 #mf{
-	width:521px;
+	width:90%;
 	margin:-40px 0px 0px -5px;
 	float:left;
 	overflow:hidden;
 }
 #df{
-	width:451px;
-	margin:0px 0px 0px -27px;
+	width:90%;
+	margin:0px 0px 0px 130px;
 	float:left;
 	overflow:hidden;
 }
+#pt{
+	align-content:center;
+	width:80%;
+	margin:30px 10% 0px 10%;
+	float:left;
+}
 #pm{
-	width:597px;
-	margin:-100px 0px 0px -120px;
+	width:160%;
+	margin:-100px 0px 0px -40%;
 	overflow:hidden;
 }
 #lp{
 	align-content:center;
-	width:374px;
-	margin:30px 0px 0px 10px;
+	width:80%;
+	margin:30px 10% 0px 10%;
 	float:left;
 }
 
@@ -137,18 +150,28 @@ body{
 		margin:1700px 0 0 0;
 	}
 	#pm{
-	width:90%;
-	margin:860px 0px 0px -100px;
+	width:120%;
+	margin:1000px 0px 0px -15%;
 	overflow:hidden;
 }
 	#lp{
 	align-content:center;
-	width:90%;
-	margin:30px 150px 0px 150px;
+	width:70%;
+	margin:1040px 15% 0px 15%;
 }
+	#dm{
+		position: absolute;
+		width:100%;
+	}
 }
 /* DESKTOP */
 @media only screen and (min-width: 1500px) {
+	body{
+		margin:0;
+		width:100%;
+		height:auto;
+		overflow-x:hidden;
+	}
 	#ai{
 		position: fixed;
 		visibility: hidden;

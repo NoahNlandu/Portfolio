@@ -32,8 +32,9 @@ body{
 }
 #shfw{
 	align-content:center;
-	width:425px;
-	margin:0px 5px 0px 0px;
+	width:80%;
+	margin:0px 5px 0px -15px;
+	overflow:hidden;
 }
 #dsmw{
 		position: fixed;
@@ -48,19 +49,19 @@ body{
 	visibility:hidden;
 }	
 #mf{
-	width:521px;
+	width:90%;
 	margin:-40px 0px 0px -5px;
 	float:left;
 	overflow:hidden;
 }
 #df{
-	width:451px;
-	margin:0px 0px 0px -27px;
+	width:90%;
+	margin:0px 0px 0px 110px;
 	float:left;
 	overflow:hidden;
 }
 #pm{
-	width:597px;
+	width:130%;
 	margin:-100px 0px 0px -100px;
 	overflow:hidden;
 }
