@@ -470,7 +470,7 @@ body{
 	.rcf{
 		position: inherit;
 		width:35%;
-		margin:-1% 200px auto 45px;
+		margin:-160px 200px auto 45px;
 		float:right;
 	}
 	#fd{
@@ -509,7 +509,7 @@ body{
 		position: fixed;
 		 display:block;
 	}
-	#rtbsm{
+/*	#rtbsm{
 		position: fixed;
 		 display:block;
 	}
@@ -524,7 +524,7 @@ body{
 		width:84%;
 		margin:30px 35px 0px 200px;
 		visibility: visible;
-	}
+	}*/
 	#sflat{
 		position: absolute;
 		width:100%;
@@ -539,13 +539,13 @@ body{
 	}
 #ifmb{
 		position: relative;
-		width:100%;
-		margin:50px 0px 0px 0px;
+		width:120%;
+		margin:50px 0px 0px -10%;
 		visibility: visible;
 	}
 #shmm{
 		position: fixed;
-		 display:block;
+		 display: block;
 	}
 #shm{
 		position: relative;
@@ -561,7 +561,7 @@ body{
 }
 #bm{
 		position: fixed;
-		 display:block;
+		 display: block;
 	}
 	#isg{
 		position: relative;

@@ -499,16 +499,20 @@ body{
 		position: absolute;
 		width:100%;
 		height: inherit;
-		margin:1700px 0 0 0;
+		margin:0px 0 0 0;
 	}
 	#fim{
 		position: fixed;
 		display: block; overflow-x: hidden;
 	}
+	#rtg{
+	width:60%;	
+	margin:200px 20% 0 20%;
+	}
 #fi{
 		position: relative;
 		width:100%;
-		margin:0px 0px 0px 0px;
+		margin:50px 0px 0px 0px;
 		visibility: visible;
 	}
 }
