@@ -95,14 +95,15 @@ h1{
 	    font-family:"Rambla", sans-serif,bold,italic;
 		font-size:22px;
 		width:auto;
-		color:black;
+		color: #488BA7;
 	    margin:40px 0px 15px 35px;
 }
 h2{
 		position:relative;
 	    font-family:"Rambla", sans-serif;
 		font-size:18px;
-		color:black;
+		font-weight: bold;
+		color: #488BA7;
 	    margin:40px 0px 5px 15px;
 		float:left;
 }
@@ -110,7 +111,8 @@ h3{
 		position:relative;
 	    font-family:"Rambla", sans-serif;
 		font-size:18px;
-		color:black;
+		font-weight: bold;
+		color: #B3A57B;
 	    margin:40px 0px 8px 15px;
 		float:left;
 }
@@ -118,7 +120,8 @@ h4{
 		position:relative;
 	    font-family:"Rambla", sans-serif,bold,italic;
 		font-size:18px;
-		color:black;
+		font-weight: bold;
+		color: #B3A57B;
 	    margin:40px 0px 15px 35px;
 }
 #sd{
@@ -139,7 +142,7 @@ p{ 		position:relative;
 		font-size:16px;
 		line-height:22px;
 		width:195px;
-		color:black;
+		color: #488BA7;
 	    margin:5px 0px 15px 20px;
 		float:left;
 }
@@ -237,7 +240,7 @@ body{
 	  padding:0;
   }
 #Header{
-	position:relative;
+	position: relative;
 	max-width:1500px;
 	min-width:auto;
 	max-height:60px;
@@ -306,7 +309,8 @@ body{
 		position: relative;
 	    font-family:"Rambla", sans-serif;
 		font-size:32px;
-		color:black;
+		font-weight: bold;
+		color: #488BA7;
 	    margin:75px 0px 25px 10%;
 }
     h2{
@@ -314,8 +318,9 @@ body{
 	    font-family:"Rambla", sans-serif;
 		font-style:bold,italic;
 		font-size:24px;
-		width:inherit;
-		color:black;
+		font-weight: bold;
+		width: inherit;
+		color: #488BA7;
 	    margin:40px 0px 10px 20px;
 		visibility: visible;
 		float:left;
@@ -325,8 +330,9 @@ body{
 	    font-family:"Rambla", sans-serif;
 		font-style:bold,italic;
 		font-size:24px;
-		width:inherit;
-		color:black;
+		font-weight: bold;
+		width: inherit;
+		color: #B3A57B;
 	    margin:40px 0px 10px 20px;
 		visibility: visible;
 		float:left;		
@@ -336,7 +342,8 @@ body{
 	    font-family:"Rambla", sans-serif;
 		font-style:bold,italic;
 		font-size:32px;
-		color:black;
+		font-weight: bold;
+		color: #B3A57B;
 	    margin:200px 0px 25px 200px;
 		float:left;		
 }
@@ -345,7 +352,7 @@ body{
 		padding:0; 
 	}
 	#contactm{
-		position:fixed;	visibility: hidden;
+		position: fixed;	visibility: hidden;
 }
 	.contactd{
 	
@@ -355,7 +362,7 @@ body{
 		visibility: visible;
 }
 	p{ 		
-		position:fixed;	visibility: hidden;
+		position: fixed;	visibility: hidden;
 }
 	p2{ 		
 		position: relative;
@@ -363,7 +370,7 @@ body{
 		font-size:18px;
 		line-height:30px;
 		width:30%;
-		color:black;
+		color: #488BA7;
 	    margin:40px 0px 15px -220px;
 		float:left;
 		visibility: visible;
@@ -421,8 +428,8 @@ body{
 		line-height:40px;
 		margin:0;
 		padding:0;
-		text-decoration:none;
-		text-align:center;
+		text-decoration: none;
+		text-align: center;
 	}
 	.main-nav ul li a:hover, .main-nav ul li a:active {
 		font-family:"Rambla", sans-serif;
@@ -432,13 +439,14 @@ body{
 		line-height:40px;
 		margin:0;
 		padding:0;
-		text-decoration:none;
+		text-decoration: none;
 }
 	h1{
 		position: relative;
 	    font-family:"Rambla", sans-serif;
 		font-size:45px;
-		color:black;
+		font-weight: bold;
+		color: #488BA7;
 	    margin:75px 0px 25px 15%;
 }
 }
@@ -511,7 +519,7 @@ header{
 		margin:0;
 		padding:0;
 		text-decoration:none;
-		text-align:center;
+		text-align: center;
 	}
 	.main-nav ul li a:hover, .main-nav ul li a:active {
 		font-family:"Rambla", sans-serif;
@@ -521,13 +529,14 @@ header{
 		line-height:40px;
 		margin:0;
 		padding:0;
-		text-decoration:none;
+		text-decoration: none;
 }
 	h1{
 		position: relative;
 	    font-family:"Rambla", sans-serif;
 		font-size:50px;
-		color:black;
+		font-weight: bold;
+		color: #488BA7;
 	    margin:75px 0px 25px 200px;
 }
 	
@@ -536,8 +545,9 @@ header{
 	    font-family:"Rambla", sans-serif;
 		font-style:bold,italic;
 		font-size:32px;
-		width:inherit;
-		color:black;
+		font-weight: bold;
+		width: inherit;
+		color: #488BA7;
 	    margin:80px 0px 15px 20px;
 		visibility: visible;
 		float:left;
@@ -547,8 +557,9 @@ header{
 	    font-family:"Rambla", sans-serif;
 		font-style:bold,italic;
 		font-size:32px;
-		width:inherit;
-		color:black;
+		font-weight: bold;
+		width: inherit;
+		color: #B3A57B;
 	    margin:80px 0px 15px 15px;
 		visibility: visible;
 		float:left;		
@@ -558,7 +569,8 @@ header{
 	    font-family:"Rambla", sans-serif;
 		font-style:bold,italic;
 		font-size:32px;
-		color:black;
+		font-weight: bold;
+		color: #B3A57B;
 	    margin:200px 0px 25px 200px;
 		float:left;		
 }
@@ -567,7 +579,7 @@ header{
 		padding:0; 
 	}
 	#contactm{
-		position:fixed;	visibility: hidden;
+		position: fixed;	visibility: hidden;
 }
 	.contactd{
 	
@@ -585,7 +597,7 @@ header{
 		font-size:18px;
 		line-height:30px;
 		width:25%;
-		color:black;
+		color: #488BA7;
 	    margin:200px 0px 15px -408px;
 		float:left;
 		visibility: visible;
@@ -608,14 +620,14 @@ header{
 }
 	.srb{
 		margin:0px 100px 0px 0px;
-		width:inherit;
-		height:100px;
+		width: inherit;
+		height: 100px;
 		float:left;
 }
 	.ii{
 		margin:50px 0px 0px -425px;
-		width:inherit;
-		height:100px;
+		width: inherit;
+		height: 100px;
 		float:left
 	}
 	#flat{
