@@ -25,6 +25,12 @@ pwork{
 .lc{
 		margin:0 0 0px 0px;
 }
+#lcs{
+		position:relative;
+		margin:0px 0 0px 0px;
+		width:100%;
+		float:left;
+}
 .rc{
 		margin:0 0 0px 0px;
 	}
@@ -159,21 +165,21 @@ hwork{
 		float:left;
 }
 	.lc{
-		width:35%;
+		width:33%;
 		margin:0 0 auto 15%;
 		float:left;
 }
 	#lcs{
-		width:35%;
-		margin:35px 0 auto -35%;
+		width:33%;
+		margin:35px 0 auto -33%;
 }
 	#lcs2{
-		width:35%;
-		margin:35px 0 auto -35%;
+		width:33%;
+		margin:35px 0 auto -33%;
 }
 	.rc{
 		position: inherit;
-		width:35%;
+		width:33%;
 		margin:0 15% auto 0px;
 		float:right;
 	}
@@ -238,18 +244,30 @@ hwork{
 		float:left;
 }
 	.lc{
-		width:35%;
+		width:33%;
 		margin:0 0 auto 200px;
+		float:left;
+	}
+		#lcs{
+		position:relative;
+		margin:40px 0 0px -503px;
+		width:33%;
+		float:left;
+}
+	#lcs2{
+		position:relative;
+		margin:40px 0 0px -503px;
+		width:33%;
 		float:left;
 }
 	.rc{
 		position: inherit;
-		width:35%;
+		width:33%;
 		margin:0 200px auto 0px;
 		float:right;
 	}
 h2work{
-	position:relative;
+		position: relative;
 	    font-family:"Rambla", sans-serif;
 		font-size:22px;
 		font-weight: bold;
@@ -263,7 +281,6 @@ p2work{
 		position: relative;
 	    font-family:"Rambla", sans-serif;
 		font-size:18px;
-		font-weight: bold;
 		line-height:30px;
 		color: #488BA7;
 	    margin: 0px 35px 0px 0px;

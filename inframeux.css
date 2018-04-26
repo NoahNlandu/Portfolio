@@ -231,34 +231,30 @@ body{
 		position: absolute;
 		width:100%;
 		height: inherit;
-		margin: 1400px 0 0 0;
+		margin: 1500px 0 0 0;
 	}
 	#pflat{
 		position: absolute;
 		width:100%;
 		height: inherit;
-		margin: 1050px 0 0 0;
+		margin: 925px 0 0 0;
 	}
 	#pt{
 	align-content:center;
 	width:65%;
-	margin:30px 15% 0px 15%;
+	margin:30px 15% -140px 15%;
 	float:left;
 }
 	#pm{
 	width:120%;
-	margin:1280px 0px 0px -15%;
+	margin:0 0px 0px -15%;
 	overflow-x:hidden;
 }
 	#lp{
 	align-content:center;
 	width:70%;
-	margin:840px 15% 0px 15%;
+	margin:80px 15% 0px 15%;
 }
-	#dm{
-		position: fixed;
-		width:100%;
-	}
 }
 /* DESKTOP */
 @media only screen and (min-width: 1500px) {
@@ -344,13 +340,13 @@ body{
 	float:left;
 }
 	#pm{
-	width:90%;
-	margin:1530px 0px 0px -125px;
+	width:120%;
+	margin:0px 0px 0px -325px;
 	overflow:hidden;
 }
 	#lp{
 	align-content:center;
 	width:80%;
-	margin:830px 150px 0px 150px;
+	margin:100px 150px 0px 150px;
 }
 }

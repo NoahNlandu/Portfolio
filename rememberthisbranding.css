@@ -258,7 +258,8 @@ body{
 	}
 	#ai{
 		position: fixed;
-		display: block; overflow-x: hidden;
+		overflow-x: hidden;
+		opacity:0;
 	}
 	#ai1{
 		position: relative;
@@ -274,7 +275,8 @@ body{
 	}
 	#rtrm{
 		position: fixed;
-		display: block; overflow-x: hidden;
+		overflow-x: hidden;
+		opacity:0;
 	}
 	#rtrd{
 		position: absolute;
@@ -302,13 +304,13 @@ body{
 }
 	.rcom{
 		position: inherit;
-		width:30%;
+		width:33%;
 		margin:100px 15% auto 45px;
 		float:right;
 	}
 	.rcf{
 		position: inherit;
-		width:35%;
+		width:33%;
 		margin:-220px 15% auto 45px;
 		float:right;
 	}
@@ -334,7 +336,7 @@ body{
 	}
 	.rcp{
 		position: inherit;
-		width:35%;
+		width:33%;
 		margin:30px 15% auto 0px;
 		float:right;
 	}
@@ -433,13 +435,13 @@ body{
 }
 	.rcom{
 		position: inherit;
-		width:35%;
+		width:33%;
 		margin:100px 200px auto 45px;
 		float:right;
 	}
 	.rcf{
 		position: inherit;
-		width:35%;
+		width:33%;
 		margin:-220px 200px auto 45px;
 		float:right;
 	}

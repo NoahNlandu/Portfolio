@@ -46,15 +46,6 @@ body{
 		margin:30px 35px 0px 35px;
 		visibility: visible;
 	}
-#om{
-		position: relative;
-		width:84%;
-		margin:30px 35px 30px 35px;
-		visibility: visible;
-}
-	.rcom{
-		margin:0 0 0px 0px;
-}
 .rcf{
 		margin:0 0 0px 0px;
 	}
@@ -188,15 +179,6 @@ body{
 		margin:30px 10% 0px 10%;
 		visibility: visible;
 	}
-#om{
-		position: relative;
-		width:80%;
-		margin:30px 10% 30px 10%;
-		visibility: visible;
-}
-	.rcom{
-		margin:0 0 0px 0px;
-}
 .rcf{
 		margin:0 0 0px 0px;
 	}
@@ -322,11 +304,11 @@ body{
 	}
 	.sk{
 		position: fixed;
-		 display:block;
+		display: block;
 	}
 	.rcf{
 		position: inherit;
-		width:35%;
+		width:33%;
 		margin:-185px 15% auto 45px;
 		float:right;
 	}
@@ -358,7 +340,7 @@ body{
 	}
 	.rcp{
 		position: inherit;
-		width:35%;
+		width:33%;
 		margin:30px 15% auto 0px;
 		float:right;
 	}
@@ -455,21 +437,9 @@ body{
 		position: fixed;
 		 display:block;
 	}
-		#om{
-		position: relative;
-		width:100%;
-		margin:40px 0px 0px 0px;
-		visibility: visible;
-}
-	.rcom{
-		position: inherit;
-		width:35%;
-		margin:100px 200px auto 45px;
-		float:right;
-	}
 	.rcf{
 		position: inherit;
-		width:35%;
+		width:33%;
 		margin:-160px 200px auto 45px;
 		float:right;
 	}
@@ -495,7 +465,7 @@ body{
 	}
 	.rcp{
 		position: inherit;
-		width:35%;
+		width:33%;
 		margin:30px 200px auto 45px;
 		float:right;
 	}
@@ -534,13 +504,13 @@ body{
 	#ifm{
 		position: relative;
 		width:80%;
-		margin:280px 10% 0px 10%;
+		margin:460px 10% 0px 10%;
 		visibility: visible;
 	}
 #ifmb{
 		position: relative;
 		width:120%;
-		margin:50px 0px 0px -10%;
+		margin:100px 0px 0px -10%;
 		visibility: visible;
 	}
 #shmm{

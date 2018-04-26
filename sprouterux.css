@@ -71,8 +71,88 @@ body{
 	float:left;
 }
 
-/* TABLET */
+/* MOBILE XL */
 @media only screen and (min-width: 480px) {
+body{
+		margin:0;
+		width:100vw;
+		height:auto;
+		overflow-x:hidden;
+	}
+#ai{
+		position: relative;
+		width:80%;
+		margin:30px 10% 0px 10%;
+		visibility: visible;
+	}
+#ai1{
+		position: fixed;
+		display: block;
+	}
+	#ai2{
+		position: fixed;
+		display: block;
+	}
+#smw{
+	width:80%;
+	margin:0px 5px 0px 6%;
+}
+#sdw{
+	width:90%;
+	margin:25px 5px 0px 7%;
+}
+#shfw{
+	align-content:center;
+	width:120%;
+	margin:0px 35px 0px -8%;
+	overflow-x:hidden;
+}
+#dsmw{
+		position: fixed;
+		display: block;
+}	
+#dsdw{
+		position: fixed;
+		display: block;
+}
+#dshfw{
+		position: fixed;
+		display: block;
+}	
+#mf{
+	width:90%;
+	margin:-40px 0px 0px -5px;
+	float:left;
+	overflow-x:hidden;
+}
+#df{
+	width:90%;
+	margin:0px 0px 0px 130px;
+	float:left;
+	overflow-x:hidden;
+}
+#pt{
+	align-content:center;
+	width:70%;
+	margin:30px 15% 0px 15%;
+	float:left;
+}
+#pm{
+	width:160%;
+	margin:-30% 0px 0px -40%;
+	overflow-x:hidden;
+}
+#lp{
+	align-content:center;
+	width:80%;
+	margin:70px 10% 0px 10%;
+	float:left;
+}
+}
+
+
+/* TABLET */
+@media only screen and (min-width: 1000px) {
 body{
 		margin:0;
 		width:100%;
