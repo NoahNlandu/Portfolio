@@ -40,21 +40,14 @@
 	} /* Hide the slides before the JS is loaded. Avoids image jumping */
 .slides li a:link, .slides li a:visited {
 		font-family:"Rambla",sans-serif;
-		font-size:22px;
-		text-decoration:none;
-	    color:lightblue;
 	}
 .slides li a:hover, .slides li a:active {
 		font-family:"Rambla",sans-serif;
-		font-size:22px;
-		text-decoration:none;
-	    color:lightblue;
 	}
 .superslider .slides img {
 	margin: 0px 0px 0px 0px; 
 	padding: 0;
 	width:100%;
-	height:auto;
 	height:auto;
 	display: block;
 	}
@@ -135,7 +128,7 @@ html[xmlns] .slides {display: block;}
 .super-control-thumbs img:hover {opacity: 1;}
 .super-control-thumbs .super-active {opacity: 1; cursor: default;}
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: auto) {
   .super-direction-nav .super-prev {opacity: 1; left: 0;}
   .super-direction-nav .super-next {opacity: 1; right: 0;}
 }

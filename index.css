@@ -96,7 +96,7 @@ h1{
 		font-size:22px;
 		width:auto;
 		color: #488BA7;
-	    margin:40px 0px 15px 35px;
+	    margin:30px 0px 15px 35px;
 }
 h2{
 		position:relative;
@@ -135,20 +135,24 @@ h4{
 	
 	position:fixed;
 	visibility:hidden;
+	opacity:0;
 	float:right;
 }
 p{ 		position:relative;
 	    font-family:"Rambla", sans-serif;
 		font-size:16px;
 		line-height:22px;
-		width:195px;
+		width:160px;
 		color: #488BA7;
 	    margin:5px 0px 15px 20px;
+		visibility: visible;
+		opacity:1;
 		float:left;
 }
 p2{ 
 	position:fixed;
-	visibility:hidden;
+	visibility: hidden;
+	opacity:0;
 }
 .divider{
 	width:100%;
@@ -311,7 +315,7 @@ body{
 		font-size:32px;
 		font-weight: bold;
 		color: #488BA7;
-	    margin:75px 0px 25px 10%;
+	    margin:40px 0px 25px 10%;
 }
     h2{
 	    position:relative;
@@ -352,17 +356,22 @@ body{
 		padding:0; 
 	}
 	#contactm{
-		position: fixed;	visibility: hidden;
+		position: fixed;
+		opacity:0;
+		visibility: hidden;
 }
 	.contactd{
 	
 		position: relative;
 		width:45%;
 		height: inherit;
+		opacity:1;
 		visibility: visible;
 }
 	p{ 		
-		position: fixed;	visibility: hidden;
+		position: fixed;
+		opacity:0;
+		visibility: hidden;
 }
 	p2{ 		
 		position: relative;
@@ -372,6 +381,7 @@ body{
 		width:30%;
 		color: #488BA7;
 	    margin:40px 0px 15px -220px;
+		opacity:1;
 		float:left;
 		visibility: visible;
 }	
@@ -447,7 +457,7 @@ body{
 		font-size:45px;
 		font-weight: bold;
 		color: #488BA7;
-	    margin:75px 0px 25px 15%;
+	    margin:40px 0px 25px 15%;
 }
 }
 	/* DESKTOP */
@@ -537,7 +547,7 @@ header{
 		font-size:50px;
 		font-weight: bold;
 		color: #488BA7;
-	    margin:75px 0px 25px 200px;
+	    margin:40px 0px 25px 200px;
 }
 	
     h2{
@@ -579,17 +589,21 @@ header{
 		padding:0; 
 	}
 	#contactm{
-		position: fixed;	visibility: hidden;
+		position: fixed;
+		opacity:0; visibility: hidden;
 }
 	.contactd{
 	
 		position: relative;
 		width:45%;
 		height: inherit;
+		opacity:1;
 		visibility: visible;
 }
 	p{ 		
-		position:fixed;	visibility: hidden;
+		position:fixed;
+		opacity:0;
+		visibility: hidden;
 }
 	p2{ 		
 		position: relative;
@@ -599,6 +613,7 @@ header{
 		width:25%;
 		color: #488BA7;
 	    margin:200px 0px 15px -408px;
+		opacity:1;
 		float:left;
 		visibility: visible;
 }	
