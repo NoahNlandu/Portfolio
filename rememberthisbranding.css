@@ -304,13 +304,13 @@ body{
 }
 	.rcom{
 		position: inherit;
-		width:33%;
+		width:34%;
 		margin:100px 15% auto 45px;
 		float:right;
 	}
 	.rcf{
 		position: inherit;
-		width:33%;
+		width:34%;
 		margin:-220px 15% auto 45px;
 		float:right;
 	}
@@ -336,7 +336,7 @@ body{
 	}
 	.rcp{
 		position: inherit;
-		width:33%;
+		width:34%;
 		margin:30px 15% auto 0px;
 		float:right;
 	}
@@ -411,7 +411,7 @@ body{
 	}
 	#rtrd{
 		position: absolute;
-		width:35%;
+		width:34%;
 		margin:0px 0px 0px 0px;
 		visibility: visible;
 	}
@@ -435,13 +435,13 @@ body{
 }
 	.rcom{
 		position: inherit;
-		width:33%;
+		width:34%;
 		margin:100px 200px auto 45px;
 		float:right;
 	}
 	.rcf{
 		position: inherit;
-		width:33%;
+		width:34%;
 		margin:-220px 200px auto 45px;
 		float:right;
 	}
@@ -467,7 +467,7 @@ body{
 	}
 	.rcp{
 		position: inherit;
-		width:35%;
+		width:34%;
 		margin:30px 200px auto 45px;
 		float:right;
 	}

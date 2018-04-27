@@ -165,21 +165,21 @@ hwork{
 		float:left;
 }
 	.lc{
-		width:33%;
+		width:34%;
 		margin:0 0 auto 15%;
 		float:left;
 }
 	#lcs{
-		width:33%;
+		width:34%;
 		margin:35px 0 auto -33%;
 }
 	#lcs2{
-		width:33%;
+		width:34%;
 		margin:35px 0 auto -33%;
 }
 	.rc{
 		position: inherit;
-		width:33%;
+		width:34%;
 		margin:0 15% auto 0px;
 		float:right;
 	}
@@ -244,25 +244,25 @@ hwork{
 		float:left;
 }
 	.lc{
-		width:33%;
+		width:34%;
 		margin:0 0 auto 200px;
 		float:left;
 	}
 		#lcs{
 		position:relative;
-		margin:40px 0 0px -503px;
-		width:33%;
+		margin:40px 0 0px -34%;
+		width:34%;
 		float:left;
 }
 	#lcs2{
 		position:relative;
 		margin:40px 0 0px -503px;
-		width:33%;
+		width:34%;
 		float:left;
 }
 	.rc{
 		position: inherit;
-		width:33%;
+		width:34%;
 		margin:0 200px auto 0px;
 		float:right;
 	}
