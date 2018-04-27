@@ -142,7 +142,7 @@ p{ 		position:relative;
 	    font-family:"Rambla", sans-serif;
 		font-size:16px;
 		line-height:22px;
-		width:160px;
+		width:58%;
 		color: #488BA7;
 	    margin:5px 0px 15px 20px;
 		visibility: visible;
@@ -154,6 +154,11 @@ p2{
 	visibility: hidden;
 	opacity:0;
 }
+	#flat{
+		position: relative;
+		height: auto;
+		margin:350px 0 0 0;
+	}
 .divider{
 	width:100%;
 	margin:0px 0px 25px 0px;
@@ -270,6 +275,14 @@ body{
 	z-index:9999;
 	
 }
+	.divider{
+	width:100%;
+	margin:0px 0px 25px 0px;
+}
+.divider2{
+	width:100%;
+	margin:0px 0px 25px 0px;
+}
 .main-nav{
 		position:relative;
 		width:auto;
@@ -384,7 +397,13 @@ body{
 		opacity:1;
 		float:left;
 		visibility: visible;
-}	
+}
+		#flat{
+		position: relative;
+		height: auto;
+		margin:0px 0 0 -15%;
+		float:left;
+	}
 }
 /* TABLET */
 @media only screen and (min-width: 1000px) {

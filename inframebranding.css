@@ -169,15 +169,15 @@ body{
 		position: fixed;
 		 display:block;
 	}
-#sk{
-		position: fixed;
-		 display:block;
-	}
-.sk{
+	#sk{
 		position: relative;
-		width:80%;
-		margin:30px 10% 0px 10%;
+		width:60%;
+		margin:-10px 20% 0px 20%;
 		visibility: visible;
+	}
+	.sk{
+		position: fixed;
+		display: block;
 	}
 .rcf{
 		margin:0 0 0px 0px;
@@ -206,8 +206,8 @@ body{
 }
 .mim{
 		position: relative;
-		width:80%;
-		margin:30px 10% 0px 10%;
+		width:50%;
+		margin:30px 25% 0px 25%;
 		visibility: visible;
 	}
 .rcp{
@@ -298,8 +298,8 @@ body{
 	}
 	#sk{
 		position: relative;
-		width:70%;
-		margin:-10px 15% 0px 15%;
+		width:50%;
+		margin:-10px 25% 0px 25%;
 		visibility: visible;
 	}
 	.sk{
@@ -429,8 +429,8 @@ body{
 	}
 	#sk{
 		position: relative;
-		width:84%;
-		margin:-100px 200px 0px 200px;
+		width:50%;
+		margin:-100px 25% 0px 25%;
 		visibility: visible;
 	}
 	.sk{
