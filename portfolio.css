@@ -14,12 +14,12 @@ body{
 		float:left;
 }
 .icon{
-		height:100px;
+		width:87px;
 		margin:40px 35px 5px 35px;
 		float:left;
 }
 .icon2{
-		height:100px;
+		width:87px;
 		margin:-104px 35px 5px 60%;
 		float:right;
 }
@@ -45,7 +45,7 @@ body{
 .icon2{
 		width:25%;
 		height:auto;
-		margin:-22.5% 10% 5px 30%;
+		margin:-29.5% 10% 5px 30%;
 		float:right;
 }
 }
@@ -71,7 +71,7 @@ body{
 .icon2{
 		width:25%;
 		height:auto;
-		margin:-22.75% 15% 5px 50%;
+		margin:-29.5% 15% 5px 50%;
 		float:right;
 }
 	
@@ -90,14 +90,14 @@ body{
 		float:left;
 }
 	.icon{
-		height: 335px;
-		width:auto;
+		width: 33%;
+		height: auto;
 		margin:70px 200px 5px 200px;
 		float:left;
 }
 	.icon2{
-		height: 335px;
-		width:auto;	margin:-335px 200px 5px 55%;
+		width: 33%;
+		height: auto;	margin:-38% 200px 5px 55%;
 		float:left;
 }
 }
