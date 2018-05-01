@@ -17,12 +17,12 @@ body{
 #ai1{
 		position: fixed;
 		 display: block;
-		overflow-x:hidden;
+		opacity:0;
 	}
 	#ai2{
 		position: fixed;
 		display: block;
-		overflow-x:hidden;
+		opacity:0;
 	}
 #rtrm{
 		position: relative;
@@ -153,11 +153,13 @@ body{
 	}
 #ai1{
 		position: fixed;
-		 display:block;
+		display: block;
+		opacity:0;
 	}
 	#ai2{
 		position: fixed;
-		 display:block;
+		 display: block;
+		opacity:0;
 	}
 #rtrm{
 		position: relative;
@@ -278,12 +280,14 @@ body{
 		position: relative;
 		width:90%;
 		margin:0px 0px 0px 0px;
+		opacity:1;
 		visibility: visible;
 	}
 	#ai2{
 		position: relative;
 		width:90%;
 		margin:0px 0px 0px 0px;
+		opacity:1;
 		visibility: visible;
 	}
 	#rtrm{
@@ -409,12 +413,14 @@ body{
 		position: relative;
 		width:90%;
 		margin:0px 0px 0px 0px;
+		opacity:1;
 		visibility: visible;
 	}
 	#ai2{
 		position: relative;
 		width:90%;
 		margin:0px 0px 0px 0px;
+		opacity:1;
 		visibility: visible;
 	}
 	#rtrm{
