@@ -645,6 +645,11 @@ body{
 		color: #488BA7;
 	    margin:40px 0px 25px 15%;
 }
+	#flat{
+		position: relative;
+		height: auto;
+		margin:180px 0 0 -45%;
+	}
 footer{
 	width:100%;
 	height:auto;
@@ -939,7 +944,7 @@ header{
 	#flat{
 		position: relative;
 		height: auto;
-		margin:500px 0 0 0;
+		margin:500px 0 0 -53%;
 	}
 footer{
 	width:100%;
