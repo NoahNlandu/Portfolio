@@ -108,6 +108,13 @@ body{
 	width:85%;
 	margin:0px 35px 0 35px;
 }
+#nb{
+		position: relative;
+		width:35%;
+		height: auto;
+		margin:0px -6% 80px 0;
+		float:right;
+}
 
 /* MOBILE XL */
 @media only screen and (min-width: 480px) {
@@ -225,6 +232,13 @@ body{
 	width:80%;
 	margin:0px 10% 0 10%;
 }
+		#nb{
+		position: relative;
+		width:35%;
+		height: auto;
+		margin:0px -7% 80px 0;
+		float:right;
+}
 }
 /* TABLET */
 @media only screen and (min-width: 1000px) {
@@ -337,6 +351,13 @@ body{
 	width:80%;
 	margin:0px 10% 0 10%;
 }
+		#nb{
+		position: relative;
+		width:35%;
+		height: auto;
+		margin:0px -8% 80px 0;
+		float:right;
+}
 }
 /* DESKTOP */
 @media only screen and (min-width: 1500px) {
@@ -447,5 +468,12 @@ body{
 #fi{
 	width:80%;
 	margin:0px 10% 60px 10%;
+}
+		#nb{
+		position: relative;
+		width:35%;
+		height: auto;
+		margin:0px -8% 80px 0;
+		float:right;
 }
 }

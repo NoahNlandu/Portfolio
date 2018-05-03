@@ -34,6 +34,18 @@ pwork{
 .rc{
 		margin:0 0 0px 0px;
 	}
+.ai{
+		position: relative;
+		width:84%;
+		margin:30px 35px 0px 35px;
+		visibility: visible;
+	    opacity:1;
+	}
+.aif{
+		position: fixed;
+		 display: block;
+		opacity:0;
+	}
 h2work{
 		position: relative;
 	    font-family:"Rambla", sans-serif;
@@ -105,6 +117,17 @@ pwork{
 		margin:0 0 0px 0px;
 		width:100%;
 	}
+	.ai{
+		position: relative;
+		width:81%;
+		margin:30px 10% 0px 9%;
+		visibility: visible;
+	}
+	.aif{
+		position: fixed;
+		display: block;
+		opacity:0;
+	}
 	h2work{
 		position: relative;
 	    font-family:"Rambla", sans-serif;
@@ -133,6 +156,13 @@ hwork{
 		color: #B3A57B;
 	    margin:60px 10% 15px 10%;
 		float:left;
+}
+		#nb{
+		position: relative;
+		width:35%;
+		height: auto;
+		margin:0px -7% 80px 0;
+		float:right;
 }
 }
 /* TABLET */
@@ -182,6 +212,18 @@ hwork{
 		width:34%;
 		margin:0 15% auto 0px;
 		float:right;
+	}
+	.ai{
+		position: fixed;
+		 visibility: hidden;
+		opacity:0;
+	}
+	.aif{
+		position: relative;
+		width:95%;
+		margin:0px 0px 0px -7px;
+		opacity:1;
+		visibility: visible;
 	}
 h2work{
 		position: relative;
@@ -256,7 +298,7 @@ hwork{
 }
 	#lcs2{
 		position:relative;
-		margin:40px 0 0px -503px;
+		margin:40px 0 0px -509px;
 		width:34%;
 		float:left;
 }
@@ -265,6 +307,17 @@ hwork{
 		width:34%;
 		margin:0 200px auto 0px;
 		float:right;
+	}
+	.ai{
+		position: fixed;
+		 display:block;
+	}
+	.aif{
+		position: relative;
+		width:95%;
+		margin:0px 0px 0px -10px;
+		opacity:1;
+		visibility: visible;
 	}
 h2work{
 		position: relative;
@@ -295,5 +348,12 @@ hwork{
 		color: #B3A57B;
 	    margin:60px 35px 15px 15%;
 		float:left;
+}
+		#nb{
+		position: relative;
+		width:35%;
+		height: auto;
+		margin:0px -8% 80px 0;
+		float:right;
 }
 }

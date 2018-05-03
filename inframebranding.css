@@ -136,6 +136,13 @@ body{
 		visibility: visible;
 		overflow-x:hidden;
 }
+#nb{
+		position: relative;
+		width:35%;
+		height: auto;
+		margin:0px -6% 80px 0;
+		float:right;
+}
 
 /* MOBILE XL */
 @media only screen and (min-width: 480px) {
@@ -261,6 +268,13 @@ body{
 		width:100%;
 		margin:50px 0px 0px 0px;
 		visibility: visible;
+}
+		#nb{
+		position: relative;
+		width:35%;
+		height: auto;
+		margin:0px -7% 80px 0;
+		float:right;
 }
 }
 
@@ -395,6 +409,13 @@ body{
 		width:100%;
 		margin:50px 0px 0px 0px;
 		visibility: visible;
+}
+		#nb{
+		position: relative;
+		width:35%;
+		height: auto;
+		margin:0px -8% 80px 0;
+		float:right;
 }
 }
 /* DESKTOP */
@@ -544,5 +565,19 @@ body{
 		width:100%;
 		margin:50px 0px 0px 0px;
 		visibility: visible;
+}
+		#nb{
+		position: relative;
+		width:35%;
+		height: auto;
+		margin:0px -8% 80px 0;
+		float:right;
+}
+			#nb{
+		position: relative;
+		width:35%;
+		height: auto;
+		margin:0px -8% 80px 0;
+		float:right;
 }
 }
