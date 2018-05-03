@@ -85,15 +85,8 @@ body{
 #lp{
 	align-content:center;
 	width:80%;
-	margin:30px 10% 220px 10%;
+	margin:30px 10% 60px 10%;
 	float:left;
-}
-#nb{
-		position: relative;
-		width:35%;
-		height: auto;
-		margin:0px -6% 80px 0;
-		float:right;
 }
 
 /* MOBILE XL */
@@ -178,15 +171,8 @@ body{
 #lp{
 	align-content:center;
 	width:80%;
-	margin:70px 10% 220px 10%;
+	margin:70px 10% 100px 10%;
 	float:left;
-}
-	#nb{
-		position: relative;
-		width:35%;
-		height: auto;
-		margin:0px -7% 80px 0;
-		float:right;
 }
 }
 
@@ -273,7 +259,7 @@ body{
 		position: relative;
 		width:100%;
 		height: inherit;
-		margin: 925px 0 0 0;
+		margin:78% 0 0 0;
 	}
 	#pt{
 		position: relative;
@@ -281,14 +267,14 @@ body{
 		margin:30px 15% -140px 15%;
 	}
 .lcb{
-		position: relative;
+		position: absolute;
 		width:100%;
 		margin:1330px 0 0 0;
 	}
 .lcp{
-		position: absolute;
+		position: relative;
 		width:34%;
-		margin:0px 0 0px 15%;
+		margin:14% 0 0px 15%;
 		float:left; 
 	}
 	#pm{
@@ -302,13 +288,6 @@ body{
 	align-content:center;
 	width:70%;
 	margin:80px 15% 120px 15%;
-}
-	#nb{
-		position: relative;
-		width:35%;
-		height: auto;
-		margin:0px -8% 80px 0;
-		float:right;
 }
 }
 /* DESKTOP */
@@ -380,7 +359,7 @@ body{
 }
 	#df{
 	width:90%;
-	margin:-290px -450px 0px 0px;
+	margin:-290px -450px 200px 0px;
 	float:right;
 	overflow:hidden;
 }
@@ -388,13 +367,13 @@ body{
 		position: absolute;
 		width:100%;
 		height: inherit;
-		margin: 1600px 0 0 0;
+		margin:119% 0 0 0;
 	}
 	#sflat{
 		position: absolute;
 		width:100%;
 		height: inherit;
-		margin: 1600px 0 0 0;
+		margin: 2000px 0 0 0;
 	}
 	#pt{
 	align-content: center;
@@ -402,21 +381,25 @@ body{
 	margin:30px 15% 0px 15%;
 	float:left;
 }
+	.lcb{
+		position: absolute;
+		width:100%;
+		margin:1330px 0 0 0;
+	}
+.lcp{
+		position: relative;
+		width:34%;
+		margin:22% 0 0px 15%;
+		float:left; 
+	}
 	#pm{
 	width:120%;
-	margin:0px 0px 0px -325px;
+	margin:160px 0px 0px -325px;
 	overflow:hidden;
 }
 	#lp{
 	align-content:center;
 	width:80%;
 	margin:100px 150px 200px 150px;
-}
-	#nb{
-		position: relative;
-		width:35%;
-		height: auto;
-		margin:0px -8% 80px 0;
-		float:right;
 }
 }

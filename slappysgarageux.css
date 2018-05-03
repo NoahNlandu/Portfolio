@@ -67,16 +67,9 @@ body{
 }
 #lp{
 	align-content:center;
-	width:374px;
-	margin:30px 0px 0px 10px;
+	width:80%;
+	margin:30px 35px 60px 35px;
 	float:left;
-}
-#nb{
-		position: relative;
-		width:35%;
-		height: auto;
-		margin:0px -6% 80px 0;
-		float:right;
 }
 /* MOBILE XL */
 @media only screen and (min-width: 480px) {
@@ -140,21 +133,14 @@ body{
 }
 #pm{
 	width:130%;
-	margin:-100px 0px 0px -250px;
+	margin:-160px 40px 0px -250px;
 	overflow:hidden;
 }
 #lp{
 	align-content:center;
-	width:374px;
-	margin:30px 0px 0px 10px;
+	width:70%;
+	margin:40px 15% 60px 15%;
 	float:left;
-}
-	#nb{
-		position: relative;
-		width:35%;
-		height: auto;
-		margin:0px -7% 80px 0;
-		float:right;
 }
 }
 /* TABLET */
@@ -226,17 +212,17 @@ body{
 		position: absolute;
 		width:100%;
 		height: inherit;
-		margin:1700px 0 0 0;
+		margin:960px 0 0 0;
 	}
 	#pm{
 	width:130%;
-	margin:750px 0px 0px -300px;
+	margin:-10% 0px 60px -300px;
 	overflow:hidden;
 }
 	#lp{
 	align-content:center;
 	width:70%;
-	margin:50px 15% 0px 15%;
+	margin:60px 15% 100px 15%;
 }
 		#nb{
 		position: relative;
@@ -325,13 +311,6 @@ body{
 	#lp{
 	align-content:center;
 	width:82%;
-	margin:60px 150px 0px 150px;
-}
-		#nb{
-		position: relative;
-		width:35%;
-		height: auto;
-		margin:0px -8% 80px 0;
-		float:right;
+	margin:60px 150px 140px 150px;
 }
 }

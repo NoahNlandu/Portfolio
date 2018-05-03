@@ -8,20 +8,6 @@ body{
 		height:auto;
 		overflow-x:hidden;
 	}
-#ai{
-		position: relative;
-		width:84%;
-		margin:30px 35px 0px 35px;
-		visibility: visible;
-	}
-#ai1{
-		position: fixed;
-		display: block; overflow-x: hidden;
-	}
-	#ai2{
-		position: fixed;
-		display: block; overflow-x: hidden;
-	}
 #rtrm{
 		position: relative;
 		width:84%;
@@ -112,7 +98,7 @@ body{
 #fim{
 		position: relative;
 		width:100%;
-		margin:50px 0px 0px 0px;
+		margin:50px 0px 80px 0px;
 		visibility: visible;
 	}
 #fi{
@@ -123,13 +109,6 @@ body{
 	width:100%;
 	margin:5px 0 0 0;
 }
-#nb{
-		position: relative;
-		width:35%;
-		height: auto;
-		margin:0px -6% 80px 0;
-		float:right;
-}
 
 /* MOBILE XL */
 @media only screen and (min-width: 480px) {
@@ -138,20 +117,6 @@ body{
 		width:100vw;
 		height:auto;
 		overflow-x:hidden;
-	}
-#ai{
-		position: relative;
-		width:80%;
-		margin:30px 10% 0px 10%;
-		visibility: visible;
-	}
-#ai1{
-		position: fixed;
-		display: block; overflow-x: hidden;
-	}
-	#ai2{
-		position: fixed;
-		display: block; overflow-x: hidden;
 	}
 #rtrm{
 		position: relative;
@@ -243,7 +208,7 @@ body{
 #fim{
 		position: relative;
 		width:100%;
-		margin:50px 0px 0px 0px;
+		margin:50px 0px 100px 0px;
 		visibility: visible;
 	}
 #fi{
@@ -253,13 +218,6 @@ body{
 #rtg{
 	width:100%;
 	margin:5px 0 0 0;
-}
-		#nb{
-		position: relative;
-		width:35%;
-		height: auto;
-		margin:0px -7% 80px 0;
-		float:right;
 }
 }
 /* TABLET */
@@ -387,19 +345,12 @@ body{
 	#fi{
 		position: relative;
 		width:100%;
-		margin:80px 0px 0px 0px;
+		margin:80px 0px 130px 0px;
 		visibility: visible;
 	}
 	#rtg{
 	width:60%;	
 	margin:5px 20% 0 20%;
-}
-		#nb{
-		position: relative;
-		width:35%;
-		height: auto;
-		margin:0px -8% 80px 0;
-		float:right;
 }
 }
 /* DESKTOP */
@@ -535,14 +486,7 @@ body{
 #fi{
 		position: relative;
 		width:100%;
-		margin:50px 0px 0px 0px;
+		margin:50px 0px 140px 0px;
 		visibility: visible;
 	}
-		#nb{
-		position: relative;
-		width:35%;
-		height: auto;
-		margin:0px -8% 80px 0;
-		float:right;
-}
 }

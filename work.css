@@ -75,6 +75,13 @@ hwork{
 	    margin:60px 35px 15px 35px;
 		float:left;
 }
+#nb{
+		position: relative;
+		width:35%;
+		height: auto;
+		margin:0px -7.5% 80px 0;
+		float:right;
+}
 /* MOBILE XL */
 @media only screen and (min-width: 480px) {
 body{
@@ -255,6 +262,13 @@ hwork{
 	    margin:60px 35px 15px 200px;
 		float:left;
 }
+			#nb{
+		position: relative;
+		width:35%;
+		height: auto;
+		margin:0px -8% 80px 0;
+		float:right;
+}
 }
 /* DESKTOP */
 @media only screen and (min-width: 1500px) {
@@ -298,7 +312,7 @@ hwork{
 }
 	#lcs2{
 		position:relative;
-		margin:40px 0 0px -509px;
+		margin:40px 0 0px -34%;
 		width:34%;
 		float:left;
 }

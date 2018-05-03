@@ -8,22 +8,6 @@ body{
 		height:auto;
 		overflow-x:hidden;
 	}
-#ai{
-		position: relative;
-		width:84%;
-		margin:30px 35px 0px 35px;
-		visibility: visible;
-	}
-#ai1{
-		position: fixed;
-		 display: block;
-		opacity:0;
-	}
-	#ai2{
-		position: fixed;
-		display: block;
-		opacity:0;
-	}
 #rtrm{
 		position: relative;
 		width:84%;
@@ -132,16 +116,9 @@ body{
 	#isg{
 		position: relative;
 		width:100%;
-		margin:50px 0px 0px 0px;
+		margin:50px 0px 30px 0px;
 		visibility: visible;
 		overflow-x:hidden;
-}
-#nb{
-		position: relative;
-		width:35%;
-		height: auto;
-		margin:0px -6% 80px 0;
-		float:right;
 }
 
 /* MOBILE XL */
@@ -151,22 +128,6 @@ body{
 		width:100vw;
 		height:auto;
 		overflow-x:hidden;
-	}
-#ai{
-		position: relative;
-		width:80%;
-		margin:30px 10% 0px 10%;
-		visibility: visible;
-	}
-#ai1{
-		position: fixed;
-		display: block;
-		opacity:0;
-	}
-	#ai2{
-		position: fixed;
-		 display: block;
-		opacity:0;
 	}
 #rtrm{
 		position: relative;
@@ -266,15 +227,8 @@ body{
 	#isg{
 		position: relative;
 		width:100%;
-		margin:50px 0px 0px 0px;
+		margin:50px 0px 60px 0px;
 		visibility: visible;
-}
-		#nb{
-		position: relative;
-		width:35%;
-		height: auto;
-		margin:0px -7% 80px 0;
-		float:right;
 }
 }
 
@@ -285,24 +239,6 @@ body{
 		width:100%;
 		height:auto;
 		overflow-x:hidden;
-	}
-	#ai{
-		position: fixed;
-		 display:block;
-	}
-	#ai1{
-		position: relative;
-		width:90%;
-		margin:0px 0px 0px 0px;
-		opacity:1;
-		visibility: visible;
-	}
-	#ai2{
-		position: relative;
-		width:90%;
-		margin:0px 0px 0px 0px;
-		opacity:1;
-		visibility: visible;
 	}
 	#rtrm{
 		position: fixed;
@@ -326,7 +262,7 @@ body{
 	}
 	.rcf{
 		position: inherit;
-		width:33%;
+		width:34%;
 		margin:-185px 15% auto 45px;
 		float:right;
 	}
@@ -358,7 +294,7 @@ body{
 	}
 	.rcp{
 		position: inherit;
-		width:33%;
+		width:34%;
 		margin:30px 15% auto 0px;
 		float:right;
 	}
@@ -407,15 +343,8 @@ body{
 		#isg{
 		position: relative;
 		width:100%;
-		margin:50px 0px 0px 0px;
+		margin:50px 0px 80px 0px;
 		visibility: visible;
-}
-		#nb{
-		position: relative;
-		width:35%;
-		height: auto;
-		margin:0px -8% 80px 0;
-		float:right;
 }
 }
 /* DESKTOP */
@@ -466,7 +395,7 @@ body{
 	}
 	.rcf{
 		position: inherit;
-		width:33%;
+		width:34%;
 		margin:-160px 200px auto 45px;
 		float:right;
 	}
@@ -563,21 +492,7 @@ body{
 	#isg{
 		position: relative;
 		width:100%;
-		margin:50px 0px 0px 0px;
+		margin:50px 0px 80px 0px;
 		visibility: visible;
-}
-		#nb{
-		position: relative;
-		width:35%;
-		height: auto;
-		margin:0px -8% 80px 0;
-		float:right;
-}
-			#nb{
-		position: relative;
-		width:35%;
-		height: auto;
-		margin:0px -8% 80px 0;
-		float:right;
 }
 }

@@ -106,15 +106,9 @@ body{
 	}
 #fi{
 	width:85%;
-	margin:0px 35px 0 35px;
+	margin:0px 35px 60px 35px;
 }
-#nb{
-		position: relative;
-		width:35%;
-		height: auto;
-		margin:0px -6% 80px 0;
-		float:right;
-}
+
 
 /* MOBILE XL */
 @media only screen and (min-width: 480px) {
@@ -123,20 +117,6 @@ body{
 		width:100vw;
 		height:auto;
 		overflow-x:hidden;
-	}
-#ai{
-		position: relative;
-		width:80%;
-		margin:30px 10% 0px 10%;
-		visibility: visible;
-	}
-#ai1{
-		position: fixed;
-		display: block; overflow-x: hidden;
-	}
-	#ai2{
-		position: fixed;
-		display: block; overflow-x: hidden;
 	}
 #rtrm{
 		position: relative;
@@ -223,8 +203,8 @@ body{
 	}
 #pl{
 		position: relative;
-		width:82%;
-		margin:-40px 0px 0px 30px;
+		width:80%;
+		margin:-10% 10% 0px 10%;
 		visibility: visible;
 		z-index: 0;
 	}
@@ -247,23 +227,6 @@ body{
 		width:100vw;
 		height:auto;
 		overflow-x:hidden;
-	}
-	#ai{
-		position: fixed;
-		overflow-x: hidden;
-		opacity:0;
-	}
-	#ai1{
-		position: relative;
-		width:90%;
-		margin:0px 0px 0px 0px;
-		visibility: visible;
-	}
-	#ai2{
-		position: relative;
-		width:90%;
-		margin:0px 0px 0px 0px;
-		visibility: visible;
 	}
 	#rtrm{
 		position: fixed;
@@ -311,6 +274,12 @@ body{
 		position: fixed;
 		display: block; overflow-x: hidden;
 	}
+	#c{
+		position: relative;
+		width:70%;
+		margin:35px 15% 30px 15%;
+		visibility: visible;
+}
 	#mid{
 		position: relative;
 		width:70%;
@@ -342,14 +311,14 @@ body{
 	}
 #pl{
 		position: relative;
-		width:82%;
-		margin:-40px 0px 0px 30px;
+		width:80%;
+		margin:-10% 10% 0px 7%;
 		visibility: visible;
 		z-index: 0;
 	}
 #fi{
 	width:80%;
-	margin:0px 10% 0 10%;
+	margin:80px 10% 80px 10%;
 }
 		#nb{
 		position: relative;
@@ -366,22 +335,6 @@ body{
 		width:100%;
 		height:auto;
 		overflow-x:hidden;
-	}
-	#ai{
-		position: fixed;
-		display: block; overflow-x: hidden;
-	}
-	#ai1{
-		position: relative;
-		width:90%;
-		margin:0px 0px 0px 0px;
-		visibility: visible;
-	}
-	#ai2{
-		position: relative;
-		width:90%;
-		margin:0px 0px 0px 0px;
-		visibility: visible;
 	}
 	#rtrm{
 		position: fixed;
@@ -402,12 +355,6 @@ body{
 	.sk{
 		position: fixed;
 		display: block;
-	}
-	.rcf{
-		position: inherit;
-		width:35%;
-		margin:-220px 200px auto 45px;
-		float:right;
 	}
 	#fd{
 		position: relative;
@@ -433,6 +380,12 @@ body{
 		position: inherit;
 		width:35%;
 		margin:30px 200px auto 45px;
+		float:right;
+	}
+		.rcf{
+		position: inherit;
+		width:34%;
+		margin:-9.5% 0 auto 0px;
 		float:right;
 	}
 	#mid2{
