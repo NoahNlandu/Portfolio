@@ -35,7 +35,7 @@ body{
 #shfw{
 	align-content:center;
 	width:120%;
-	margin:0px 35px 0px -12%;
+	margin:0px 35px 0px -11%;
 	overflow-x:hidden;
 }
 #dsmw{
@@ -53,6 +53,9 @@ body{
 		display: block;
 		overflow-x:hidden;
 }	
+.rcp{
+		margin:0 0 0px 0px;
+	}
 #mf{
 	width:90%;
 	margin:-40px 0px 0px -5px;
@@ -68,9 +71,12 @@ body{
 #pt{
 	align-content:center;
 	width:80%;
-	margin:30px 10% 0px 10%;
+	margin:30px 10% 30px 10%;
 	float:left;
 }
+#lcp{
+		margin:0 0 0px 0px;
+	}
 #pm{
 	width:160%;
 	margin:-120px 0px 0px -40%;
@@ -79,8 +85,15 @@ body{
 #lp{
 	align-content:center;
 	width:80%;
-	margin:30px 10% 0px 10%;
+	margin:30px 10% 220px 10%;
 	float:left;
+}
+#nb{
+		position: relative;
+		width:35%;
+		height: auto;
+		margin:0px -20px 80px 0;
+		float:right;
 }
 
 /* MOBILE XL */
@@ -118,7 +131,7 @@ body{
 #shfw{
 	align-content:center;
 	width:120%;
-	margin:0px 35px 0px -8%;
+	margin:0px 35px 0px -10%;
 	overflow-x:hidden;
 }
 #dsmw{
@@ -132,7 +145,10 @@ body{
 #dshfw{
 		position: fixed;
 		display: block;
-}	
+}
+	.rcp{
+		margin:0 0 0px 0px;
+	}
 #mf{
 	width:90%;
 	margin:-40px 0px 0px -5px;
@@ -148,9 +164,12 @@ body{
 #pt{
 	align-content:center;
 	width:70%;
-	margin:30px 15% 0px 15%;
+	margin:30px 15% 30px 15%;
 	float:left;
 }
+#lcp{
+		margin:0 0 0px 0px;
+	}
 #pm{
 	width:160%;
 	margin:-30% 0px 0px -40%;
@@ -159,8 +178,15 @@ body{
 #lp{
 	align-content:center;
 	width:80%;
-	margin:70px 10% 0px 10%;
+	margin:70px 10% 220px 10%;
 	float:left;
+}
+	#nb{
+		position: relative;
+		width:35%;
+		height: auto;
+		margin:0px -15% 80px 0;
+		float:right;
 }
 }
 
@@ -220,6 +246,12 @@ body{
 		margin:-20px 0px 40px 14%;
 		visibility: visible;
 }	
+.rcp{
+		position: inherit;
+		width:34%;
+		margin:35px 15% auto 0px;
+		float:right;
+	}
 	#mf{
 	width:60%;
 	margin:-320px 0px 50px -30px;
@@ -232,32 +264,51 @@ body{
 	overflow-x:hidden;
 }
 	#sflat{
-		position: absolute;
+		position: relative;
 		width:100%;
 		height: inherit;
-		margin: 1500px 0 0 0;
+		margin:1800px 0 0 0;
 	}
 	#pflat{
-		position: absolute;
+		position: relative;
 		width:100%;
 		height: inherit;
 		margin: 925px 0 0 0;
 	}
 	#pt{
-	align-content:center;
-	width:65%;
-	margin:30px 15% -140px 15%;
-	float:left;
-}
+		position: relative;
+		width:65%;
+		margin:30px 15% -140px 15%;
+	}
+.lcb{
+		position: relative;
+		width:100%;
+		margin:1330px 0 0 0;
+	}
+.lcp{
+		position: absolute;
+		width:34%;
+		margin:0px 0 0px 15%;
+		float:left; 
+	}
 	#pm{
-	width:120%;
-	margin:0 0px 0px -15%;
+	position: inherit;
+	width:100%;
+	margin:-180px 0px 0px -15%;
 	overflow-x:hidden;
 }
 	#lp{
+	position: inherit;
 	align-content:center;
 	width:70%;
-	margin:80px 15% 0px 15%;
+	margin:80px 15% 120px 15%;
+}
+	#nb{
+		position: relative;
+		width:35%;
+		height: auto;
+		margin:0px -15% 80px 0;
+		float:right;
 }
 }
 /* DESKTOP */
@@ -316,6 +367,12 @@ body{
 		margin:-30px 0px 40px 190px;
 		visibility: visible;
 }	
+	.rcp{
+		position: inherit;
+		width:34%;
+		margin:35px 200px auto 45px;
+		float:right;
+	}
 	#mf{
 	width:90%;
 	margin:-370px 0px 50px -130px;
@@ -353,6 +410,13 @@ body{
 	#lp{
 	align-content:center;
 	width:80%;
-	margin:100px 150px 0px 150px;
+	margin:100px 150px 200px 150px;
+}
+	#nb{
+		position: relative;
+		width:35%;
+		height: auto;
+		margin:0px -10% 80px 0;
+		float:right;
 }
 }

@@ -32,25 +32,35 @@ body{
 		position: fixed;
 		display: block; overflow-x: hidden;
 	}
+.sk{
+		position: relative;
+		width:75%;
+		margin:10px 35px 30px 35px;
+		visibility: visible;
+	}
 #sk{
 		position: fixed;
 		display: block;
 	}
-.sk{
+.mim{
 		position: relative;
 		width:84%;
-		margin:30px 35px 0px 35px;
+		margin:0px 35px 0px 15px;
 		visibility: visible;
 	}
-#om{
-		position: relative;
-		width:84%;
-		margin:30px 35px 30px 35px;
-		visibility: visible;
-}
-	.rcom{
+.rcp{
 		margin:0 0 0px 0px;
-}
+	}
+#mid{
+		position: fixed;
+		display: block; overflow-x: hidden;
+	}
+#mi2{
+		position: relative;
+		width:75%;
+		margin:20px 19% 20px 35px;
+		visibility: visible;
+	}
 .rcf{
 		margin:0 0 0px 0px;
 	}
@@ -70,56 +80,33 @@ body{
 		position: fixed;
 		display: block; overflow-x: hidden;
 	}
-.mim{
+#c{
 		position: relative;
-		width:84%;
-		margin:30px 35px 0px 35px;
+		width:80%;
+		margin:35px 35px 30px 35px;
 		visibility: visible;
-	}
-.rcp{
-		margin:0 0 0px 0px;
-	}
-#mid{
-		position: fixed;
-		display: block; overflow-x: hidden;
-	}
-#mid2{
-		position: fixed;
-		display: block; overflow-x: hidden;
-	}
-#rtp{
-		position: relative;
-		width:100%;
-		margin:0px 0px 0px 0px;
-		visibility: visible;
-	}
-#rtbsm{
-		position: relative;
-		width:84%;
-		margin:50px 35px 0px 35px;
-		visibility: visible;
-	}
-#rtbsd{
-		position: fixed;
-		display: block; overflow-x: hidden;
-	}
-#rtbsd2{
-		position: fixed;
-		display: block; overflow-x: hidden;
-	}
+}
 #fim{
 		position: relative;
 		width:100%;
 		margin:50px 0px 0px 0px;
 		visibility: visible;
 	}
-#fi{
-		position: fixed;
-		display: block; overflow-x: hidden;
+#t{
+		position: relative;
+		width:84%;
+		margin:70px 35px 0px 35px;
+		visibility: visible;
 	}
-#rtg{
-	width:100%;
-	margin:5px 0 0 0;
+#pl{
+		position: relative;
+		width:82%;
+		margin:0px 0px 0px 30px;
+		visibility: visible;
+	}
+#fi{
+	width:85%;
+	margin:0px 35px 0 35px;
 }
 
 /* MOBILE XL */
@@ -164,15 +151,12 @@ body{
 		position: fixed;
 		display: block;
 	}
-#om{
+.mi{
 		position: relative;
-		width:80%;
-		margin:30px 10% 30px 10%;
+		width:70%;
+		margin:40px 15% 0px 10%;
 		visibility: visible;
-}
-	.rcom{
-		margin:0 0 0px 0px;
-}
+	}
 .rcf{
 		margin:0 0 0px 0px;
 	}
@@ -192,10 +176,16 @@ body{
 		position: fixed;
 		display: block; overflow-x: hidden;
 	}
+#c{
+		position: relative;
+		width:80%;
+		margin:35px 10% 30px 10%;
+		visibility: visible;
+}
 .mim{
 		position: relative;
 		width:80%;
-		margin:30px 10% 0px 5%;
+		margin:0px 10% 0px 5%;
 		visibility: visible;
 	}
 .rcp{
@@ -205,9 +195,11 @@ body{
 		position: fixed;
 		display: block; overflow-x: hidden;
 	}
-#mid2{
-		position: fixed;
-		display: block; overflow-x: hidden;
+#mi2{
+		position: relative;
+		width:70%;
+		margin:40px 20% 20px 10%;
+		visibility: visible;
 	}
 #rtp{
 		position: relative;
@@ -215,33 +207,23 @@ body{
 		margin:0px 0px 0px 0px;
 		visibility: visible;
 	}
-#rtbsm{
+#t{
 		position: relative;
-		width:84%;
-		margin:50px 35px 0px 35px;
+		width:85%;
+		margin:80px 10% 0px 5%;
 		visibility: visible;
+		z-index:38;
 	}
-#rtbsd{
-		position: fixed;
-		display: block; overflow-x: hidden;
-	}
-#rtbsd2{
-		position: fixed;
-		display: block; overflow-x: hidden;
-	}
-#fim{
+#pl{
 		position: relative;
-		width:100%;
-		margin:50px 0px 0px 0px;
+		width:82%;
+		margin:-40px 0px 0px 30px;
 		visibility: visible;
+		z-index: 0;
 	}
 #fi{
-		position: fixed;
-		display: block; overflow-x: hidden;
-	}
-#rtg{
-	width:100%;
-	margin:5px 0 0 0;
+	width:80%;
+	margin:0px 10% 0 10%;
 }
 }
 /* TABLET */
@@ -282,30 +264,23 @@ body{
 	}
 	#sk{
 		position: relative;
-		width:84%;
-		margin:0px 15% 0px 15%;
+		width:60%;
+		margin:0px 20% 0px 20%;
 		visibility: visible;
 	}
 	.sk{
 		position: fixed;
 		display: block;
 	}
-		#om{
+	.rcb{
 		position: relative;
 		width:100%;
-		margin:40px 0px 0px 0px;
-		visibility: visible;
-}
-	.rcom{
-		position: inherit;
-		width:30%;
-		margin:100px 15% auto 45px;
-		float:right;
+		margin:0;
 	}
 	.rcf{
-		position: inherit;
-		width:35%;
-		margin:-220px 15% auto 45px;
+		position: absolute;
+		width:34%;
+		margin:3% 15% auto 54%;
 		float:right;
 	}
 	#fd{
@@ -325,7 +300,7 @@ body{
 	#mid{
 		position: relative;
 		width:70%;
-		margin:30px 35px 0px 14%;
+		margin:30px 20% 30px 13%;
 		visibility: visible;
 	}
 	.rcp{
@@ -334,45 +309,33 @@ body{
 		margin:30px 15% auto 0px;
 		float:right;
 	}
-	#mid2{
+	#mi2{
 		position: relative;
-		width:70%;
-		margin:30px 35px 0px 10%;
+		width:65%;
+		margin:40px 19% 0px 16%;
 		visibility: visible;
 	}
 	.mim{
 		position: fixed;
 		display: block; overflow-x: hidden;
 	}
-	#rtbsm{
-		position: fixed;
-		display: block; overflow-x: hidden;
-	}
-	#rtbsd{
-	position: relative;
-		width:100%;
-		margin:0px 0px 0px 100px;
-		visibility: visible;
-}
-	#rtbsd2{
+#t{
 		position: relative;
-		width:80%;
-		margin:30px 15% 0px 15%;
+		width:85%;
+		margin:80px 10% 0px 5%;
 		visibility: visible;
-	}	
-	#fim{
-		position: fixed;
-		display: block; overflow-x: hidden;
+		z-index:38;
 	}
-	#fi{
+#pl{
 		position: relative;
-		width:100%;
-		margin:80px 0px 0px 0px;
+		width:82%;
+		margin:-40px 0px 0px 30px;
 		visibility: visible;
+		z-index: 0;
 	}
-	#rtg{
-	width:60%;	
-	margin:5px 20% 0 20%;
+#fi{
+	width:80%;
+	margin:0px 10% 0 10%;
 }
 }
 /* DESKTOP */
@@ -419,18 +382,6 @@ body{
 		position: fixed;
 		display: block;
 	}
-		#om{
-		position: relative;
-		width:100%;
-		margin:40px 0px 0px 0px;
-		visibility: visible;
-}
-	.rcom{
-		position: inherit;
-		width:35%;
-		margin:100px 200px auto 45px;
-		float:right;
-	}
 	.rcf{
 		position: inherit;
 		width:35%;
@@ -473,40 +424,28 @@ body{
 		position: fixed;
 		display: block; overflow-x: hidden;
 	}
-	#rtbsm{
-		position: fixed;
-		display: block; overflow-x: hidden;
-	}
-	#rtbsd{
-	position: relative;
-		width:100%;
-		margin:0px 0px 0px 100px;
-		visibility: visible;
-}
-	#rtbsd2{
-		position: relative;
-		width:84%;
-		margin:30px 35px 0px 200px;
-		visibility: visible;
-	}
 	#sflat{
 		position: absolute;
 		width:100%;
 		height: inherit;
 		margin:0px 0 0 0;
 	}
-	#fim{
-		position: fixed;
-		display: block; overflow-x: hidden;
+#t{
+		position: relative;
+		width:85%;
+		margin:140px 10% 0px 5%;
+		visibility: visible;
+		z-index:38;
 	}
-	#rtg{
-	width:60%;	
-	margin:200px 20% 0 20%;
+#pl{
+		position: relative;
+		width:70%;
+		margin:-60px 15% 0px 15%;
+		visibility: visible;
+		z-index: 0;
 	}
 #fi{
-		position: relative;
-		width:100%;
-		margin:50px 0px 0px 0px;
-		visibility: visible;
-	}
+	width:80%;
+	margin:0px 10% 60px 10%;
+}
 }

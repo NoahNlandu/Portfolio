@@ -46,7 +46,10 @@ body{
 #dshfw{
 		position:fixed;
 	visibility:hidden;
-}	
+}
+	.rcp{
+		margin:0 0 0px 0px;
+	}
 #mf{
 	width:521px;
 	margin:-40px 0px 0px -5px;
@@ -118,7 +121,10 @@ body{
 #dshfw{
 		position: fixed;
 		display: block;
-}	
+}
+		.rcp{
+		margin:0 0 0px 0px;
+	}
 #mf{
 	width:90%;
 	margin:-40px 0px 0px -5px;
@@ -204,7 +210,13 @@ body{
 		width:78%;
 		margin:30px 0px 40px 14%;
 		visibility: visible;
-}	
+}
+.rcp{
+		position: inherit;
+		width:34%;
+		margin:35px 15% auto 0px;
+		float:right;
+	}
 	#mf{
 	width:60%;
 	margin:-470px 0px 50px -30px;
@@ -287,6 +299,12 @@ body{
 		margin:30px 0px 40px 190px;
 		visibility: visible;
 }	
+	.rcp{
+		position: inherit;
+		width:34%;
+		margin:35px 200px auto 45px;
+		float:right;
+	}
 	#mf{
 	width:1400px;
 	margin:-470px 0px 50px -130px;
