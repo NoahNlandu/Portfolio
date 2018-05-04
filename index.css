@@ -935,15 +935,16 @@ header{
 	.contactd{
 	
 		position: relative;
-		width:45%;
+		width:34%;
 		height: inherit;
+		margin: 0px 10% 0 30px;
 		opacity:1;
 		visibility: visible;
 }
 	#rch{
 		position: relative;
 		width:34%;
-		margin:-45% 15% 0 0;
+		margin:-44% 15% 0 0;
 		float:right;
 	}
 	p{ 		
