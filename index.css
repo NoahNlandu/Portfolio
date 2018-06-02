@@ -157,6 +157,11 @@ p2{
 	visibility: hidden;
 	opacity:0;
 }
+.flat{
+		position: relative;
+		height: auto;
+		margin:350px 0 0 0;
+	}
 	#flat{
 		position: relative;
 		height: auto;
@@ -220,9 +225,9 @@ footer{
 }
 #fsm{
 	position: absolute;
-	width:1px;
+	width:1.25px;
 	height: auto;
-	margin: 25px 0px 20px 2%;
+	margin: 30px 0px 20px 2%;
 	visibility: visible;
 	opacity:1;
 	z-index:99;
@@ -432,31 +437,29 @@ header{
 		float:left;		
 }
 .sp{
-		height:110px;
+		height:auto;
+		width:170px;
 		margin:40px 0px 5px 35px;
 		float:left;
 }
 	#sd{
-		width:400px;
-		padding:0; 
+		width:300px;
+		padding:0;
+		float:left;
 	}
 	#contactm{
-		position: fixed;
-		opacity:0;
-		visibility: hidden;
-		
+	visibility: visible;
+	opacity: 1;
+	margin-bottom: 60px
 }
-	.contactd{
+.contactd{
 	
-		position: relative;
-		width:35%;
-		height: inherit;
-		margin: -80px 10% 0 0;
-		opacity:1;
-		visibility: visible;
-		float:right;
-}
-	p{ 		
+	position:fixed;
+	visibility: hidden;
+	opacity:0;
+	float:right;
+	}
+p{ 		
 		position: fixed;
 		opacity:0;
 		visibility: hidden;
@@ -466,9 +469,9 @@ header{
 	    font-family:"Rambla", sans-serif;
 		font-size:18px;
 		line-height:30px;
-		width:30%;
+		width:50%;
 		color: #488BA7;
-	    margin:40px 0px 15px -220px;
+	    margin:40px 0px 15px 30px;
 		opacity:1;
 		float:left;
 		visibility: visible;
@@ -476,7 +479,7 @@ header{
 	#flat{
 		position: relative;
 		height: auto;
-		margin:380px 0 0 -54%;
+		margin:0px 0 0 -54%;
 		float:left;
 	}
 	#bp{
@@ -672,7 +675,7 @@ body{
 	    margin:40px 0px 25px 15%;
 }
 .sp{
-		height:98px;
+		height:auto;
 		margin:40px 0px 5px 35px;
 		float:left;
 }
@@ -691,6 +694,18 @@ body{
 	margin:5px;
 	float:left;
 }
+	p2{ 		
+		position: relative;
+	    font-family:"Rambla", sans-serif;
+		font-size:18px;
+		line-height:30px;
+		width:30%;
+		color: #488BA7;
+	    margin:130px 0px 15px -270px;
+		opacity:1;
+		float:left;
+		visibility: visible;
+}
 	#contactm{
 		position: fixed;
 		opacity:0; visibility: hidden;
@@ -700,7 +715,7 @@ body{
 		position: relative;
 		width:40%;
 		height: auto;
-		margin:-80px 10% 0 0;
+		margin:0px 10% 0 0;
 		opacity:1;
 		visibility: visible;
 }
