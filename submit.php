@@ -5,6 +5,9 @@ if(isset($_POST['url']) && $_POST['url'] == ''){
 	mail( 'me@noahnlandu.com', 'Noah Nlandu', print_r($_POST,true) );
 }
 // otherwise, let the spammer think that they got their message through
+
+header('Location: http://www.noahnlandu.com');
+exit('Redirecting you to http://www.noahnlandu.com');
 ?>
 <!DOCTYPE HTML>
 <html>
