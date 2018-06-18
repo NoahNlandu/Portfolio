@@ -22,6 +22,14 @@ $headers[] = "X-Mailer: PHP/".phpversion();
 mail($destination, $subject, $message, implode("\r\n", $headers));
  
 ?>
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<title>Thanks!</title>
+
+</head>
+<body>
 
 <p>It worked! Thanks for your message:<br>
 <?php echo $message; ?>
@@ -33,3 +41,5 @@ mail($destination, $subject, $message, implode("\r\n", $headers));
 header('Location: http://www.noahnlandu.com');
 exit('Redirecting you to http://www.noahnlandu.com');
 -->
+</body>
+</html>
