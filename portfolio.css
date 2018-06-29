@@ -14,13 +14,13 @@ body{
 		float:left;
 }
 .icon{
-		width:87px;
-		margin:40px 35px 5px 35px;
+		width:25%;
+		margin:40px 35px 30px 60px;
 		float:left;
 }
 .icon2{
-		width:87px;
-		margin:-104px 35px 5px 60%;
+		width:25%;
+		margin:-145px 60px 30px 60%;
 		float:right;
 }
 
