@@ -4,25 +4,36 @@
 /* MOBILE */
 body{
 		margin:0;
-		width:100%vw;
+		width:100vw;
 		height:auto;
 		overflow-x:hidden;
 	}
-#ux{
-		position:relative;
-	    margin:-80px 40px 0px 53%;
-		float:left;
+table {
+    font-family: "Rambla";
+    border-collapse: collapse;
+    width: 90%;
+	margin:0 5% 5% 5%;
+}
+
+td, th {
+    border: 0px;
+	background-color: none;
+    padding: 5%;
+}
+
+tr:nth-child(even) {
+    background-color: none;
 }
 .icon{
-		width:25%;
-		margin:40px 35px 30px 60px;
+		width:80%;
+		margin:0 10% 5% 10%;
 		float:left;
 }
 .icon2{
-		width:25%;
-		margin:-145px 60px 30px 60%;
-		float:right;
-}
+		width:80%;
+		margin:0 10% 5% 10%;
+		}
+
 
 /* MOBILE XL */
 @media only screen and (min-width: 480px) {
@@ -32,20 +43,31 @@ body{
 		height:auto;
 		overflow-x:hidden;
 	}
-#ux{
-		position: relative; margin:-140px 40px 0px 65%;
-		float:left;
+	table {
+    font-family: "Rambla";
+    border-collapse: collapse;
+    width: 80%;
+	margin:0 10% 5% 10%;
+}
+
+td, th {
+    border: 0px;
+	background-color: none;
+    padding: 5%;
+}
+
+tr:nth-child(even) {
+    background-color: none;
 }
 .icon{
-		width:25%;
+		width:70%;
 		height:auto;
-		margin:40px 35px 5px 10%;
-		float:left;
+		margin:0 15% 5% 15%;
 }
 .icon2{
-		width:25%;
+		width:70%;
 		height:auto;
-		margin:-29.5% 10% 5px 30%;
+		margin:0 15% 5% 15%;
 		float:right;
 }
 }
@@ -57,21 +79,32 @@ body{
 		height:auto;
 		overflow-x:hidden;
 	}
-	#ux{
-		position:relative;
-	    margin:-160px 40px 0px 60vw;
-		float:left;
+table {
+    font-family: "Rambla";
+    border-collapse: collapse;
+    width: 70%;
+	margin:0 15% 5% 15%;
+}
+
+td, th {
+    border: 0px;
+	background-color: none;
+    padding: 5%;
+}
+
+tr:nth-child(even) {
+    background-color: none;
 }
 .icon{
-		width:25%;
+		width:60%;
 		height:auto;
-		margin:40px 100px 5px 15%;
+		margin:0 20% 55 20%;
 		float:left;
 }
 .icon2{
-		width:25%;
+		width:60%;
 		height:auto;
-		margin:-29.5% 15% 5px 50%;
+		margin:0 20% 5% 20%;
 		float:right;
 }
 	
@@ -84,20 +117,31 @@ body{
 		height:auto;
 		overflow-x:hidden;
 	}
-	#ux{
-		position:relative;
-	    margin:-160px 200px 0px 50%;
-		float:left;
+table {
+    font-family: "Rambla";
+    border-collapse: collapse;
+    width: 70%;
+	margin:0 15% 5% 15%;
+}
+
+td, th {
+    border: 0px;
+	background-color: none;
+    padding: 5%;
+}
+
+tr:nth-child(even) {
+    background-color: none;
 }
 	.icon{
-		width: 33%;
+		width: 60%;
 		height: auto;
-		margin:70px 200px 5px 200px;
+		margin:0 25% 55 25%;
 		float:left;
 }
 	.icon2{
-		width: 33%;
-		height: auto;	margin:-38% 200px 5px 55%;
+		width: 60%;
+		height: auto;	margin:0 25% 5% 25%;
 		float:left;
 }
 }
