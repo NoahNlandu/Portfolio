@@ -19,7 +19,7 @@ pwork{
 		font-weight: bold;
 		line-height:24px;
 		color: #488BA7;
-	    margin:0px 35px 0px 35px;
+	    margin:0px 35px 20px 35px;
 		float:left;
 }
 .lc{
@@ -61,8 +61,8 @@ p2work{
 	    font-family:"Rambla", sans-serif;
 		font-size:16px;
 		line-height:22px;
-		color: #488BA7;
-	    margin:0px 35px 10px 35px;
+		color: #777777;
+	    margin:0px 35px 30px 35px;
 		float:left;
 }
 hwork{
@@ -101,7 +101,7 @@ pwork{
 		font-weight: bold;
 		line-height:30px;
 		color: #488BA7;
-	    margin:0px 10% 10px 10%;
+	    margin:0px 10% 30px 10%;
 		float:left;
 }
 .lc{
@@ -150,8 +150,8 @@ p2work{
 	    font-family:"Rambla", sans-serif;
 		font-size:16px;
 		line-height:28px;
-		color: #488BA7;
-	    margin:0px 10% 10px 10%;
+		color: #777777;
+	    margin:0px 10% 30px 10%;
 		float:left;
 }
 hwork{
@@ -191,7 +191,7 @@ hwork{
 		font-weight: bold;
 		line-height:47px;
 		color: #488BA7;
-	    margin:0px 15% 75px 15%;
+	    margin:0px 15% 80px 15%;
 		float:left;
 }
 	.bc{
@@ -222,7 +222,7 @@ hwork{
 	}
 	.ai{
 		position: fixed;
-		 visibility: hidden;
+		visibility: hidden;
 		opacity:0;
 	}
 	.aif{
@@ -248,8 +248,8 @@ p2work{
 	    font-family:"Rambla", sans-serif;
 		font-size:18px;
 		line-height:30px;
-		color: #488BA7;
-	    margin: 0px 35px 0px 0px;
+		color: #777777;
+	    margin: 0px 35px 50px 0px;
 		float:left;
 }
 hwork{
@@ -289,7 +289,7 @@ hwork{
 		font-weight: bold;
 		line-height:47px;
 		color: #488BA7;
-	    margin:0px 200px 75px 200px;
+	    margin:0px 200px 100px 200px;
 		float:left;
 }
 	.bc{
@@ -349,8 +349,8 @@ p2work{
 	    font-family:"Rambla", sans-serif;
 		font-size:18px;
 		line-height:30px;
-		color: #488BA7;
-	    margin: 0px 35px 0px 0px;
+		color: #777777;
+	    margin: 0px 35px 80px 0px;
 		float:left;
 }
 hwork{

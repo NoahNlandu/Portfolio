@@ -242,13 +242,15 @@ body{
 	}
 	#rtrm{
 		position: fixed;
-		 display:block;
+		visibility: hidden;
+		opacity: 0;
 	}
 	#rtrd{
-		position: fixed;
-		width:30%;
+		position: relative;
+		width:85%;
 		margin:0px 0px 0px 0px;
 		visibility: visible;
+		opacity:1;
 	}
 	#sk{
 		position: relative;
