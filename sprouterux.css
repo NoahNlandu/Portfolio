@@ -23,17 +23,17 @@ body{
 		visibility: hidden;
 	}
 #smw{
-	width:90%;
-	margin:0px 5px 0px 17px;
+	width:80%;
+	margin:30px 10% 30px 10%;
 }
 #sdw{
-	width:90%;
-	margin:25px 5px 0px 17px;
+	width:80%;
+	margin:25px 10% 50px 10%;
 }
 #shfw{
 	align-content:center;
-	width:425px;
-	margin:0px 5px 0px 0px;
+	width:90%;
+	margin:20px 5% 60px 5%;
 }
 #dsmw{
 		position: fixed;
@@ -51,26 +51,26 @@ body{
 		margin:0 0 0px 0px;
 	}
 #mf{
-	width:521px;
-	margin:-40px 0px 0px -5px;
+	width:90%;
+	margin:-10px 0px 50px -5px;
 	float:left;
 	overflow:hidden;
 }
 #df{
-	width:451px;
-	margin:0px 0px 0px -27px;
+	width:90%;
+	margin:10px 0px 50px -27px;
 	float:left;
 	overflow:hidden;
 }
 #pm{
 	width:597px;
-	margin:-100px 0px 0px -100px;
+	margin:-60px 0px 70px -100px;
 	overflow:hidden;
 }
 #lp{
 	align-content:center;
-	width:374px;
-	margin:30px 0px 80px 10px;
+	width:80%;
+	margin:30px 10% 80px 10%;
 	float:left;
 }
 

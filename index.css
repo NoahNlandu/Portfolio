@@ -126,6 +126,14 @@ h4{
 		color: #B3A57B;
 	    margin:0px 0px 15px 35px;
 }
+h5{
+		position:relative;
+	    font-family:"Rambla", sans-serif,bold,italic;
+		font-size:18px;
+		font-weight: bold;
+		color: #B3A57B;
+	    margin:0px 0px 15px 35px;
+}
 table {
     border-collapse: collapse;
     width: auto;
@@ -439,6 +447,17 @@ header{
 	    margin:150px 700px 25px 35px;
 		float:left;		
 }
+h5{
+		position:relative;
+	    font-family:"Rambla", sans-serif;
+		font-style:bold,italic;
+		font-size:32px;
+		font-weight: bold;
+		color: #B3A57B;
+		width:200px;
+	    margin:150px 700px 25px 35px;
+		float:left;		
+}
 .sp{
 		height:auto;
 		width:20%;
@@ -463,7 +482,7 @@ tr:nth-child(even) {
 	#contactm{
 	visibility: visible;
 	opacity: 1;
-	margin-bottom: 60px;
+	margin-bottom: 0px;
 }
 .contactd{
 	
@@ -484,7 +503,7 @@ p{
 		line-height:30px;
 		width:50%;
 		color: #777777;
-	    margin:10px 0px 15px 30px;
+	    margin:10px 0px 0px 30px;
 		opacity:1;
 		float:left;
 		visibility: visible;
@@ -687,6 +706,17 @@ body{
 		font-weight: bold;
 		color: #488BA7;
 	    margin:40px 0px 25px 15%;
+}
+h5{
+		position:relative;
+	    font-family:"Rambla", sans-serif;
+		font-style:bold,italic;
+		font-size:32px;
+		font-weight: bold;
+		color: #B3A57B;
+		width:200px;
+	    margin:150px 0px 25px 10px;
+		float:left;		
 }
 .sp{
 		height:auto;
@@ -992,6 +1022,16 @@ header{
 	    margin:200px 0px 25px 200px;
 		float:left;		
 }
+	h5{
+		position:relative;
+	    font-family:"Rambla", sans-serif;
+		font-style:bold,italic;
+		font-size:32px;
+		font-weight: bold;
+		color: #B3A57B;
+	    margin:200px 0px 25px 10px;
+		float:left;		
+}
 table {
     border-collapse: collapse;
     width: auto;
@@ -1016,7 +1056,7 @@ tr:nth-child(even) {
 		position: relative;
 		width:34%;
 		height: inherit;
-		margin: -320px 10% 0 30px;
+		margin: -320px 10% 0 0;
 		opacity:1;
 		visibility: visible;
 }

@@ -34,8 +34,8 @@ body{
 	}
 .sk{
 		position: relative;
-		width:75%;
-		margin:10px 35px 30px 35px;
+		width:70%;
+		margin:30px 15% 50px 15%;
 		visibility: visible;
 	}
 #sk{
@@ -45,7 +45,7 @@ body{
 .mim{
 		position: relative;
 		width:84%;
-		margin:0px 35px 0px 15px;
+		margin:10px 35px 20px 15px;
 		visibility: visible;
 	}
 .rcp{
@@ -58,7 +58,7 @@ body{
 #mi2{
 		position: relative;
 		width:75%;
-		margin:20px 19% 20px 35px;
+		margin:20px 19% 50px 35px;
 		visibility: visible;
 	}
 .rcf{
@@ -66,14 +66,8 @@ body{
 	}
 #fm{
 		position: relative;
-		width:84%;
-		margin:0px 35px 0px 35px;
-		visibility: visible;
-	}
-#fm2{
-		position: relative;
-		width:84%;
-		margin:35px 35px 30px 35px;
+		width:70%;
+		margin:20px 0 30px 35px;
 		visibility: visible;
 	}
 #fd{
@@ -83,19 +77,19 @@ body{
 #c{
 		position: relative;
 		width:80%;
-		margin:35px 35px 30px 35px;
+		margin:20px 35px 50px 35px;
 		visibility: visible;
 }
 #fim{
 		position: relative;
 		width:100%;
-		margin:50px 0px 0px 0px;
+		margin:0px 0px 70px 0px;
 		visibility: visible;
 	}
 #t{
 		position: relative;
 		width:84%;
-		margin:70px 35px 0px 35px;
+		margin:70px 35px 50px 35px;
 		visibility: visible;
 	}
 #pl{
@@ -106,7 +100,7 @@ body{
 	}
 #fi{
 	width:85%;
-	margin:0px 35px 60px 35px;
+	margin:50px 35px 70px 35px;
 }
 
 

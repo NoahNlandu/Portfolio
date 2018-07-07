@@ -20,14 +20,14 @@ body{
 	}
 #sk{
 		position: relative;
-		width:84%;
-		margin:30px 35px 0px 35px;
+		width:80%;
+		margin:20px 35px 0px 15%;
 		visibility: visible;
 	}
 .sk{
 		position: relative;
-		width:84%;
-		margin:30px 35px 0px 35px;
+		width:70%;
+		margin:20px 15% 30px 15%;
 		visibility: visible;
 	}
 #om{
@@ -44,14 +44,14 @@ body{
 	}
 #fm{
 		position: relative;
-		width:84%;
-		margin:0px 35px 0px 35px;
+		width:70%;
+		margin:20px 0 50px 35px;
 		visibility: visible;
 	}
 #fm2{
 		position: relative;
-		width:84%;
-		margin:35px 35px 30px 35px;
+		width:70%;
+		margin:60px 0 50px 35px;
 		visibility: visible;
 	}
 #fd{
@@ -60,8 +60,8 @@ body{
 	}
 .mim{
 		position: relative;
-		width:84%;
-		margin:30px 35px 0px 35px;
+		width:70%;
+		margin:30px 15% 30px 15%;
 		visibility: visible;
 	}
 .rcp{
@@ -77,14 +77,14 @@ body{
 	}
 #rtp{
 		position: relative;
-		width:100%;
-		margin:0px 0px 0px 0px;
+		width:70%;
+		margin:20px 15% 50px 15%;
 		visibility: visible;
 	}
 #rtbsm{
 		position: relative;
-		width:84%;
-		margin:50px 35px 0px 35px;
+		width:70%;
+		margin:50px 15% 50px 15%;
 		visibility: visible;
 	}
 #rtbsd{
@@ -107,7 +107,7 @@ body{
 	}
 #rtg{
 	width:100%;
-	margin:5px 0 0 0;
+	margin:50px 0 50px 0;
 }
 
 /* MOBILE XL */

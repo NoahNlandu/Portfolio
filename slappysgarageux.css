@@ -23,17 +23,17 @@ body{
 		display: block; overflow-x: hidden;
 	}
 #ismm{
-	width:90%;
-	margin:0px 5px 0px 17px;
+	width:80%;
+	margin:30px 12% 30px 8%;
 }
 #ismd{
-	width:90%;
-	margin:25px 5px 0px 17px;
+	width:80%;
+	margin:25px 10% 60px 10%;
 }
 #shfw{
 	align-content:center;
-	width:110%;
-	margin:0px 5px 0px -30px;
+	width:90%;
+	margin:20px 5% 60px 5%;
 	overflow-x:hidden;
 }
 #dsmw{
@@ -50,19 +50,19 @@ body{
 }	
 #mf{
 	width:90%;
-	margin:-40px 0px 0px -5px;
+	margin:-10px 0px 50px -5px;
 	float:left;
 	overflow-x:hidden;
 }
 #df{
 	width:90%;
-	margin:0px 0px 0px 110px;
+	margin:10px 0px 50px 110px;
 	float:left;
 	overflow-x:hidden;
 }
 #pm{
 	width:130%;
-	margin:-100px 0px 0px -100px;
+	margin:-60px 0px 70px -100px;
 	overflow-x:hidden;
 }
 #lp{

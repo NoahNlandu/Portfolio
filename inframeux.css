@@ -25,17 +25,17 @@ body{
 		opacity:0;
 	}
 #smw{
-	width:90%;
-	margin:0px 5px 0px 17px;
+	width:84%;
+	margin:30px 35px 30px 35px;
 }
 #sdw{
 	width:80%;
-	margin:25px 5px 0px 8%;
+	margin:0px 5px 60px 8%;
 }
 #shfw{
 	align-content:center;
-	width:120%;
-	margin:0px 35px 0px -11%;
+	width:110%;
+	margin:20px 0 60px -5%;
 	overflow-x:hidden;
 }
 #dsmw{
@@ -58,20 +58,20 @@ body{
 	}
 #mf{
 	width:90%;
-	margin:-40px 0px 0px -5px;
+	margin:-10px 0px 50px -5px;
 	float:left;
 	overflow-x:hidden;
 }
 #df{
 	width:90%;
-	margin:0px 0px 0px 130px;
+	margin:10px 0px 50px 130px;
 	float:left;
 	overflow-x:hidden;
 }
 #pt{
 	align-content:center;
 	width:80%;
-	margin:30px 10% 30px 10%;
+	margin:30px 10% 50px 10%;
 	float:left;
 }
 #lcp{
@@ -79,13 +79,13 @@ body{
 	}
 #pm{
 	width:160%;
-	margin:-120px 0px 0px -40%;
+	margin:-100px 0px 70px -40%;
 	overflow-x:hidden;
 }
 #lp{
 	align-content:center;
 	width:80%;
-	margin:30px 10% 60px 10%;
+	margin:30px 10% 80px 10%;
 	float:left;
 }
 
